@@ -12,6 +12,9 @@ enableRobotsTXT = true
     organizationLogo = "/img/logo-light.svg"
     organizationDescription = "Hop"
 
+[Author]
+    name = "The Hop Team"
+
 [[menu.main]]
     name = "Documentation"
     identifier = "docs"

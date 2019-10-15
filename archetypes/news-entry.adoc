@@ -4,6 +4,6 @@ url: /news/{{ .Name }}.html
 date: {{ .Date }}
 draft: true
 type: news-entry
-author: {{ .Author }}
+author: {{ .Site.Author.name }}
 preview: ""
 ---
