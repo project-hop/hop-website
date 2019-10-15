@@ -1,0 +1,27 @@
+site:
+  title: Project Hop
+  url: https://project-hop.org
+  start_page: manual::index.adoc
+
+content:
+  sources:
+  - url: git@github.com:hansva/hop-doc.git
+    branches: master
+    start_path: /hop-website/hop-contribution-guides
+    
+ui:
+  bundle:
+    url: ./antora-ui-hop/build/ui-bundle.zip
+
+urls:
+  redirect_facility: disabled
+
+output:
+  dir: ./documentation
+
+asciidoc:
+  extensions:
+    - ./extensions/table.js
+    - ./extensions/inline-styles.js
+  attributes:
+    camel-quarkus-last-release: 0.2.0

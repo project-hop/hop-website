@@ -1,0 +1,50 @@
+---
+title: "Contributing"
+---
+
+= How To Contribute
+
+Project Hop is developed by an open and friendly community. Everybody is cordially welcome to join the community and contribute to Project Hop. There are several ways to interact with the community and to contribute to Hop including asking questions, filing bug reports, proposing new features, joining discussions on the mailing lists, contributing code or documentation, improving the website, or testing release candidates.
+
+== What do you want to do?
+Contributing to Hop goes beyond writing code for the project. Below, we list different opportunities to help the project:
+
+.Contribution table
+[width="100%", ,cols="3,10", options="header,footer"]
+|============================
+|Area |Further Information
+|Report a Bug|To report a problem with Hop, open Hop’s Jira, log in if necessary, and click on the red Create button at the top.
+Please give detailed information about the problem you encountered and, if possible, add a description that helps to reproduce the problem.
+|Contribute Code|Read the Code Contribution Guide
+|Help With Code Reviews|Read the Code Review Guide
+|Help Preparing a Release|
+Releasing a new version consists of the following steps:
+. Building a new release candidate and starting a vote (usually for 72 hours) on the dev@project-hop.org list
+. Testing the release candidate and voting (+1 if no issues were found, -1 if the release candidate has issues).
+. Going back to step 1 if the release candidate had issues. Otherwise we publish the release.
+Read the test procedure for a release.
+|Contribute Documentation|Read the Documentation Contribution Guide
+|Support Hop Users|
+- Reply to questions on the user mailing list
+- Reply to Hop related questions on Stack Overflow with the hop tag
+- Check the latest issues in Jira for tickets which are actually user questions
+|Improve the Website|Read the Website Contribution Guide
+|Spread the Word about Hop|
+- Organize or attend a Hop Meetup
+- Contribute to the Hop blog
+- Share your conference, meetup or blog post on the community@project-hop.org mailing list, or tweet about it, tagging the @ProjectHop handle.
+|============================
+Any other questions? Reach out to the Hop forums to get help.
+
+== Further Reading
+=== Submit a Contributor License Agreement
+Please submit a contributor license agreement to the Project Hop if you are contributing a lot of code to Project Hop. The following quote from http://www.apache.org/licenses gives more information about the ICLA and CCLA and why they are necessary.
+
+.Apache Licenses
+[[apachelicense]]
+// [quote, Abraham Lincoln, Address delivered at the dedication of the Cemetery at Gettysburg]
+____
+The ASF desires that all contributors of ideas, code, or documentation to the Apache projects complete, sign, and submit (via postal mail, fax or email) an Individual Contributor License Agreement (CLA) [ PDF form ]. The purpose of this agreement is to clearly define the terms under which intellectual property has been contributed to the ASF and thereby allow us to defend the project should there be a legal dispute regarding the software at some future time. A signed CLA is required to be on file before an individual is given commit rights to an ASF project.
+
+For a corporation that has assigned employees to work on an Apache project, a Corporate CLA (CCLA) is available for contributing intellectual property via the corporation, that may have been assigned as part of an employment agreement. Note that a Corporate CLA does not remove the need for every developer to sign their own CLA as an individual, to cover any of their contributions which are not owned by the corporation signing the CCLA.
+____

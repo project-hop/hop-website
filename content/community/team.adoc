@@ -1,0 +1,24 @@
+---
+title: "Team"
+---
+
+This page lists who we are. By all means add yourself to the list - lets sort it in alphabetical order (based on last name)
+
+== Committers
+
+
+|===
+| Name  | ID | Organisation 
+
+| Matt Casters | mattcasters | Neo4j 
+| Bart Maertens | bamaer | Know.bi 
+| Hans Van Akelyen | hansva | Know.bi
+|===
+
+== Contributors
+
+|===
+| Name  | Organisation 
+
+|===
+

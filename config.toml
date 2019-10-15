@@ -1,0 +1,96 @@
+baseURL = "https://project-hop.org/"
+languageCode = "en-us"
+title = "Hop"
+relativeURLs = true
+disablePathToLower = true
+staticDir = ["static", "documentation"]
+disableKinds = ["taxonomyTerm"]
+enableRobotsTXT = true
+
+[params]
+    socialProfiles = ["https://twitter.com/the_hop_project"]
+    organizationLogo = "/img/logo-light.svg"
+    organizationDescription = "Hop"
+
+[[menu.main]]
+    name = "Documentation"
+    identifier = "docs"
+    weight = 1
+
+[[menu.main]]
+    name = "Getting started"
+    parent = "docs"
+    weight = 1
+    identifier = "getting-started"
+    url = "/docs/getting-started/"
+
+[[menu.main]]
+    name = "Community"
+    identifier = "community"
+    weight = 2
+
+[[menu.main]]
+    name = "Contributing"
+    parent = "community"
+    weight = 1
+    identifier = "community-contributing"
+    url = "/community/contributing"
+
+[[menu.main]]
+    name = "Forum"
+    parent = "community"
+    weight = 2
+    identifier = "community-forum"
+    url = "https://forums.project-hop.org"
+
+[[menu.main]]
+    name = "Jenkins"
+    parent = "community"
+    weight = 3
+    identifier = "community-jenkins"
+    url = "https://jenkins.project-hop.org"
+
+[[menu.main]]
+    name = "Artifactory"
+    parent = "community"
+    weight = 4
+    identifier = "community-artifactory"
+    url = "https://artifactory.project-hop.org"
+
+[[menu.main]]
+    name = "Team"
+    parent = "community"
+    weight = 5
+    identifier = "community-team"
+    url = "/community/team/"
+
+[[menu.main]]
+    name = "Download"
+    weight = 3
+    identifier = "download"
+    url = "/download/"
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 4
+
+[[menu.main]]
+    name = "License"
+    parent = "about"
+    weight = 1
+    identifier = "about-license"
+    url = "https://www.apache.org/licenses/LICENSE-2.0"
+
+[[menu.main]]
+    name = "EULA"
+    parent = "about"
+    weight = 2
+    identifier = "about-eula"
+    url = "about/eula"
+
+[module]
+
+  [[module.mounts]]
+    source = "documentation/_/data"
+    target = "data"

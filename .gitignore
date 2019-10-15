@@ -1,0 +1,15 @@
+node
+target
+node_modules
+public
+documentation
+resources
+
+.idea
+*.iml
+.project
+.classpath
+.metadata
+.pnp
+.pnp.js
+.settings

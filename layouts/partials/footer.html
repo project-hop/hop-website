@@ -1,0 +1,31 @@
+    <div class="edit"><a title="We would love your help &hearts;&hearts;&hearts;" href="https://github.com/project-hop/hop-website/edit/master/content/{{ .File.Path | replaceRE "^/" "" }}">Edit this Page</a></div>
+    <footer>
+        <div class="footer">
+            <dl>
+                <dt>Overview</dt>
+                <dd><a href="/download/">Download</a></dd>
+                <dd><a href="/docs/getting-started/">Getting started</a></dd>
+            </dl>
+            <dl>
+                <dt>Community</dt>
+                <dd><a target="_blank" href="https://forums.project-hop.org">Forum</a></dd>
+                <dd><a target="_blank" href="/community/team/">Team</a></dd>
+            </dl>
+            <dl>
+                <dt>About</dt>
+                <dd><a target="_blank" href="https://www.apache.org/licenses/" title="License">License</a></dd>
+                <dd><a href="/about/eula" title="End User License Agreement">End User License Agreement</a></dd>
+            </dl>
+            <p>
+                &copy; 2019-{{ now.Format "2006" }} The Hop Team.<br>
+                All marks mentioned may be trademarks or registered trademarks of their respective owners.
+            </p>
+        </div>
+    </footer>
+    <script src="{{ path.Join "_" (index .Site.Data "rev-manifest" "js/site.js") | relURL }}"></script>
+    <script src="{{ path.Join "_" (index .Site.Data "rev-manifest" "js/vendor/highlight.js") | relURL }}"></script>
+    <script src="{{ path.Join "_" (index .Site.Data "rev-manifest" "js/vendor/svg4everybody.js") | relURL }}"></script>
+    {{ partial "seo/main" . }}
+
+</body>
+</html>
