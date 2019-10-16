@@ -88,12 +88,14 @@ module.exports = (src, dest, preview) => () => {
           imagemin.gifsicle(),
           imagemin.jpegtran(),
           imagemin.optipng(),
-          imagemin.svgo({ plugins: [
-            { removeViewBox: false },
-            { cleanupIDs: { remove: false } },
-            { removeTitle: false },
-            { removeDesc: false },
-          ] }),
+          imagemin.svgo({
+            plugins: [
+              { removeViewBox: false },
+              { cleanupIDs: { remove: false } },
+              { removeTitle: false },
+              { removeDesc: false },
+            ],
+          }),
         ])
       ),
     vfs.src('helpers/*.js', opts),
