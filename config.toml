@@ -25,7 +25,7 @@ enableRobotsTXT = true
     parent = "docs"
     weight = 1
     identifier = "getting-started"
-    url = "/docs/getting-started/"
+    url = "/manual/latest/"
 
 [[menu.main]]
     name = "Community"
@@ -37,7 +37,7 @@ enableRobotsTXT = true
     parent = "community"
     weight = 1
     identifier = "community-contributing"
-    url = "/community/contributing"
+    url = "/community/contributing/"
 
 [[menu.main]]
     name = "Forum"

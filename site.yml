@@ -5,9 +5,9 @@ site:
 
 content:
   sources:
-  - url: git@github.com:hansva/hop-doc.git
-    branches: master
-    start_path: /hop-website/hop-contribution-guides
+  - url: git@github.com:project-hop/hop-doc.git
+    branches: antora-impl
+    start_path: /hop-user-manual/
     
 ui:
   bundle:
@@ -23,5 +23,3 @@ asciidoc:
   extensions:
     - ./extensions/table.js
     - ./extensions/inline-styles.js
-  attributes:
-    camel-quarkus-last-release: 0.2.0

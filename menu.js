@@ -13,7 +13,7 @@ const createMenu = item => {
     name: item.name,
     children: mainMenu.filter(child => child.parent === item.identifier).map(createMenu)
   }
-}
+};
 
 const menuData = mainMenu.filter(item => typeof(item.parent) === 'undefined').map(createMenu);
 
