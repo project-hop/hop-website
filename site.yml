@@ -6,7 +6,7 @@ site:
 content:
   sources:
   - url: git@github.com:project-hop/hop-doc.git
-    branches: antora-impl
+    branches: master
     start_path: /hop-user-manual/
     
 ui:
