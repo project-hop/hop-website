@@ -28,6 +28,20 @@ enableRobotsTXT = true
     url = "/manual/latest/"
 
 [[menu.main]]
+    name = "Architecture"
+    parent = "docs"
+    weight = 2
+    identifier = "docs-architecture"
+    url = "/docs/architecture/"
+
+[[menu.main]]
+    name = "Roadmap"
+    parent = "docs"
+    weight = 3
+    identifier = "docs-roadmap"
+    url = "/docs/roadmap/"
+
+[[menu.main]]
     name = "Community"
     identifier = "community"
     weight = 2
@@ -97,7 +111,7 @@ enableRobotsTXT = true
     parent = "about"
     weight = 2
     identifier = "about-eula"
-    url = "about/eula"
+    url = "/about/eula/"
 
 [module]
 
