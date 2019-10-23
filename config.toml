@@ -106,12 +106,6 @@ enableRobotsTXT = true
     identifier = "about-license"
     url = "https://www.apache.org/licenses/LICENSE-2.0"
 
-[[menu.main]]
-    name = "EULA"
-    parent = "about"
-    weight = 2
-    identifier = "about-eula"
-    url = "/about/eula/"
 
 [module]
 
