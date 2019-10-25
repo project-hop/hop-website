@@ -72,7 +72,7 @@ module.exports = (src, dest, preview) => () => {
               next(null, file)
             })
           }
-        },)
+        }),
       )
       .pipe(buffer())
       .pipe(terser())
