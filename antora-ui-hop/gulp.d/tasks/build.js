@@ -72,7 +72,7 @@ module.exports = (src, dest, preview) => () => {
               next(null, file)
             })
           }
-        })
+        },)
       )
       .pipe(buffer())
       .pipe(terser())
@@ -96,11 +96,11 @@ module.exports = (src, dest, preview) => () => {
               { removeDesc: false },
             ],
           }),
-        ])
+        ]),
       ),
     vfs.src('helpers/*.js', opts),
     vfs.src('layouts/*.hbs', opts),
-    vfs.src('partials/*.hbs', opts)
+    vfs.src('partials/*.hbs', opts),
   ).pipe(vfs.dest(dest, { sourcemaps: sourcemaps && '.' }))
     .pipe(rev.manifest())
     .pipe(vfs.dest(path.join(dest, 'data')))
