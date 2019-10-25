@@ -2,7 +2,7 @@
 title: "Architecture"
 ---
 
-= Architecture
+== Architecture
 
 The architecture of Hop is very simple in essence: separate out any metadata from runtime code and tooling.
 
