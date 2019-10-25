@@ -2,8 +2,6 @@
 title: "Architecture"
 ---
 
-== Architecture
-
 The architecture of Hop is very simple in essence: separate out any metadata from runtime code and tooling.
 
 Doing this, Hop aims to have a minimal installation footprint and wants to be stateless to facilitate execution on a variety of platforms like Spark and Flink, but also in a variety of scenarios like running in different life cycles such as development, test, acceptance, production, unit testing and continuous integration.
