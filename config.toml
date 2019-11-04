@@ -42,6 +42,13 @@ enableRobotsTXT = true
     url = "/docs/roadmap/"
 
 [[menu.main]]
+    name = "Q&A"
+    parent = "docs"
+    weight = 4
+    identifier = "docs-qa"
+    url = "/docs/qa"
+
+[[menu.main]]
     name = "Community"
     identifier = "community"
     weight = 2
