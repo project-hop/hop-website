@@ -2,6 +2,8 @@ site:
   title: Project Hop
   url: https://project-hop.org
   start_page: manual::index.adoc
+  keys:
+    google_analytics: UA-151580460-1
 
 content:
   sources:
