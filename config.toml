@@ -24,27 +24,34 @@ enableRobotsTXT = true
     name = "Getting started"
     parent = "docs"
     weight = 1
-    identifier = "getting-started"
+    identifier = "docs-getting-started"
+    url = "/docs/getting-started/"
+
+[[menu.main]]
+    name = "User manual"
+    parent = "docs"
+    weight = 2
+    identifier = "docs-user-manual"
     url = "/manual/latest/"
 
 [[menu.main]]
     name = "Architecture"
     parent = "docs"
-    weight = 2
+    weight = 3
     identifier = "docs-architecture"
     url = "/docs/architecture/"
 
 [[menu.main]]
     name = "Roadmap"
     parent = "docs"
-    weight = 3
+    weight = 4
     identifier = "docs-roadmap"
     url = "/docs/roadmap/"
 
 [[menu.main]]
     name = "Q&A"
     parent = "docs"
-    weight = 4
+    weight = 5
     identifier = "docs-qa"
     url = "/docs/qa"
 
