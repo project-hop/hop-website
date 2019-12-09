@@ -2,3 +2,18 @@
 title: "Getting Started"
 ---
 
+== Getting Hop
+* https://artifactory.project-hop.org/artifactory/hop-snapshots-local/org/hop/hop-assemblies-client/0.1.0-SNAPSHOT/[Download] a recent Hop build.
+* unzip hop
+* go to your newly created 'hop' directory
+* start hop-ui.sh/bat
+
+== What Works
+* start Hop UI: run hop-ui.sh/bat
+* start the new database dialog preview: ./dbd.sh
+* start Hop server: './hop-server.sh <HOST> <PORT>', e.g. './hop-server.sh localhost 8000'
+* run jobs and transformations through Hop Server using the https://help.pentaho.com/Documentation/8.2/Developer_Center/REST_API/Carte[Carte API]
+
+== What doesn't work
+* new job/transformation dialogs are broken until XUL is completely gone (https://project-hop.atlassian.net/browse/HOP-3[HOP-3])
+* the new database dialog is not yet integrated in Hop UI
