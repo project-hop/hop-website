@@ -16,4 +16,3 @@ title: "Getting Started"
 
 == What doesn't work
 * new job/transformation through right-click or menu options are broken until XUL is completely gone (https://project-hop.atlassian.net/browse/HOP-3[HOP-3]). As a workaround, double clicking on the job, transformation, database connection items in the View tab opens a new item.
-* the new database dialog is not yet integrated in Hop UI
