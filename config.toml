@@ -96,9 +96,16 @@ enableRobotsTXT = true
     url = "https://artifactory.project-hop.org"
 
 [[menu.main]]
-    name = "Team"
+    name = "Chat"
     parent = "community"
     weight = 6
+    identifier = "community-chat"
+    url = "https://chat.project-hop.org"
+
+[[menu.main]]
+    name = "Team"
+    parent = "community"
+    weight = 7
     identifier = "community-team"
     url = "/community/team/"
 

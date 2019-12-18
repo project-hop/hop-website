@@ -4,23 +4,24 @@ title: "Documentation Contribution Guide"
 
 Good documentation is crucial for any kind of software. This is especially true for sophisticated software systems such as distributed data processing engines like Project Hop. The Project Hop community aims to provide concise, precise, and complete documentation and welcomes any contribution to improve Project Hop’s documentation.
 
+//// 
 . <<obtain-docs, Obtain the documentation sources>>
 . <<before-start, Before you start start working on the documentation...>>
 . <<update-or-extend, Update or extend the documentation>>
-. <<chinese-doc, Chinese documentation translation>>
+//. <<chinese-doc, Chinese documentation translation>>
 . <<submit-doc, Submit your contribution>>
 
 anchor:obtain-docs[]Obtain the documentation sources
 
-Project Hop’s documentation is maintained in the same git repository as the code base. This is done to ensure that code and documentation can be easily kept in sync.
+Project Hop’s documentation is maintained in the separate git repository as the code base.
 
-The easiest way to contribute documentation is to fork Hop’s mirrored repository on GitHub into your own GitHub account by clicking on the fork button at the top right. If you have no GitHub account, you can create one for free.
+The easiest way to contribute documentation is to fork Hop’s repository on GitHub into your own GitHub account by clicking on the fork button at the top right. If you have no GitHub account, you can create one for free.
 
 Next, clone your fork to your local machine.
 
 [frame=topbot]
 |===
-|git clone https://github.com/<your-user-name>/hop.git
+|git clone https://github.com/<your-user-name>/hop-doc.git
 |===
 
 The documentation is located in the docs/ subdirectory of the Hop code base.
@@ -45,6 +46,9 @@ In order to update or extend the documentation you have to modify the Asciidoc (
 
 Please feel free to ask any questions you have on the developer mailing list.
 
+
+//we will look into multi language documentaiton later
+
 anchor:chinese-doc[]Chinese documentation translation
 
 The Hop community is maintaining both English and Chinese documentation. If you want to update or extend the documentation, both English and Chinese documentation should be updated. If you are not familiar with Chinese language, please open a JIRA tagged with the chinese-translation component for Chinese documentation translation and link it with the current JIRA issue. If you are familiar with Chinese language, you are encouraged to update both sides in one pull request.
@@ -68,3 +72,5 @@ git push origin myBranch
 Go to the website of your repository fork (https://github.com/<your-user-name>/hop) and use the “Create Pull Request” button to start creating a pull request. Make sure that the base fork is hop master and the head fork selects the branch with your changes. Give the pull request a meaningful description and submit it.
 
 It is also possible to attach a patch to a Jira issue.
+
+////
