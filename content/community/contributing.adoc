@@ -12,9 +12,9 @@ Contributing to Hop goes beyond writing code for the project. Below, we list dif
 |============================
 |Area |Further Information
 |Report a Bug|To report a problem with Hop, open Hop’s https://jira.project-hop.org[Jira ,window=_blank], log in if necessary, and click on the "+" in the left side bar (Shortcut "c").
-Please give detailed information about the problem you encountered and, if possible, add a description that helps to reproduce the problem. For more information go to our link:../jira/[info] page.
-|Contribute Code|Read the link:../code-contribution-guide/[Code Contribution Guide] (Work in progress)
-|Help With Code Reviews|Read the link:../code-review-guide/[Code Review Guide] (Work in progress)
+Please give detailed information about the problem you encountered and, if possible, add a description that helps to reproduce the problem. For more information go to our link:../contribution-guides/jira-guide/[info] page.
+|Contribute Code|Read the link:../contribution-guides/code-contribution-guide/[Code Contribution Guide] (Work in progress)
+|Help With Code Reviews|Read the link:../contribution-guides/code-review-guide/[Code Review Guide] (Work in progress)
 |Help Preparing a Release|
 A release candidate will be ananounced using our form/twitter and chat. We will then ask as many people as possible to test this candidate and give feedback before proceeding to an actual release.
 |Contribute Documentation|Read the link:../documentation-contribution-guide/[Documentation Contribution Guide] (Work in progress)
@@ -25,7 +25,7 @@ A release candidate will be ananounced using our form/twitter and chat. We will 
 
 - Check the latest issues in Jira for tickets which are actually user questions
 
-|Improve the Website|Read the link:../website-contribution-guide/[Website Contribution Guide] (Work in progress)
+|Improve the Website|Read the link:../contribution-guides/website-contribution-guide/[Website Contribution Guide] (Work in progress)
 |Spread the Word about Hop|
 - Organize or attend a Hop Meetup
 
