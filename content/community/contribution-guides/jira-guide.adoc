@@ -74,5 +74,8 @@ The committer will always add a comment to the ticket stating his reasoning, why
 
 * When a ticket is done it is ready for release
 
+== anchor:voting[]Voting on a Jira Ticket
 
-== anchor:workflow[]Voting on a Jira Ticket
+====
+until following issue has been resolved voting is not possible on our jira tickets https://jira.atlassian.com/browse/JRACLOUD-71251[JRACLOUD-71251]
+====
