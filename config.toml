@@ -68,44 +68,16 @@ enableRobotsTXT = true
     url = "/community/contributing/"
 
 [[menu.main]]
-    name = "Jira"
+    name = "Tools"
     parent = "community"
     weight = 2
-    identifier = "community-jira"
-    url = "https://jira.project-hop.org"
-
-[[menu.main]]
-    name = "Forum"
-    parent = "community"
-    weight = 3
-    identifier = "community-forum"
-    url = "https://forums.project-hop.org"
-
-[[menu.main]]
-    name = "Jenkins"
-    parent = "community"
-    weight = 4
-    identifier = "community-jenkins"
-    url = "https://jenkins.project-hop.org"
-
-[[menu.main]]
-    name = "Artifactory"
-    parent = "community"
-    weight = 5
-    identifier = "community-artifactory"
-    url = "https://artifactory.project-hop.org"
-
-[[menu.main]]
-    name = "Chat"
-    parent = "community"
-    weight = 6
-    identifier = "community-chat"
-    url = "https://chat.project-hop.org"
+    identifier = "community-tools"
+    url = "/community/tools/"
 
 [[menu.main]]
     name = "Team"
     parent = "community"
-    weight = 7
+    weight = 3
     identifier = "community-team"
     url = "/community/team/"
 
