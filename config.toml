@@ -85,7 +85,7 @@ enableRobotsTXT = true
     name = "Download"
     weight = 3
     identifier = "download"
-    url = "/download/"
+    url = "/download/download/"
 
 [[menu.main]]
     name = "About"
