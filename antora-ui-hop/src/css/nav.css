@@ -289,11 +289,11 @@ html.is-clipped--nav {
 */
 
 .nav-logo {
-  background-image: url('../img/logo-light.svg');
+  background-image: url('../img/hop-logo.svg');
   background-repeat: no-repeat;
-  background-size: 160px;
-  background-position-x: 10px;
-  background-position-y: 10px;
+  background-size: 73px;
+  background-position-x: center;
+  background-position-y: center;
   width: 180px;
 }
 

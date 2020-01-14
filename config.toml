@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 [params]
     socialProfiles = ["https://twitter.com/projhop"]
-    organizationLogo = "/img/logo-light.svg"
+    organizationLogo = "/img/hop-logo.svg"
     organizationDescription = "Hop"
 
 [Author]
