@@ -35,6 +35,13 @@ enableRobotsTXT = true
     url = "/manual/latest/"
 
 [[menu.main]]
+    name = "Technical Documentation"
+    parent = "docs"
+    weight = 2
+    identifier = "docs-tech-manual"
+    url = "/tech-manual/latest/"
+
+[[menu.main]]
     name = "Architecture"
     parent = "docs"
     weight = 3
