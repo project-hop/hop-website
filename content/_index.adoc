@@ -2,3 +2,33 @@
 title: Home
 description: The Hop Orchestration Platform aims to facilitate all aspects of data and metadata orchestration.
 ---
+
+{{< section "frontpage columns" >}}
+
+# News
+
+{{< div "box" >}}
+{{< div >}}
+
+## Sneak Peek
+
+You can find instructions on downloading and testing the **in development** version of <mark>Hop Orchestration Platform</mark> [here](/download/download/), please note that this is not yet a stable or usable production version. You can log all issues you find on our [JIRA](https://project-hop.atlassian.net). Feel free and join the discussion on the future plans of Hop on our [Mattermost Chat](https://chat.project-hop.org/).
+{{< /div >}}
+{{< /div >}}
+
+
+{{< div "box" >}}
+{{< div >}}
+## Quick Links
+
+### [Source Code](https://github.com/project-hop/hop/) (Github)
+### [JIRA](https://project-hop.atlassian.net)
+### [Forums](https://forums.project-hop.org/)
+### [Mattermost Chat](https://chat.project-hop.org/)
+### [Contribution Guide](http://www.project-hop.org/community/contributing/)
+
+{{< /div >}}
+{{< /div >}}
+
+
+{{< /section >}}
