@@ -42,23 +42,30 @@ enableRobotsTXT = true
     url = "/tech-manual/latest/"
 
 [[menu.main]]
-    name = "Architecture"
+    name = "Developer Documentation"
     parent = "docs"
     weight = 4
+    identifier = "docs-dev-manual"
+    url = "/dev-manual/latest/"
+
+[[menu.main]]
+    name = "Architecture"
+    parent = "docs"
+    weight = 5
     identifier = "docs-architecture"
     url = "/docs/architecture/"
 
 [[menu.main]]
     name = "Roadmap"
     parent = "docs"
-    weight = 5
+    weight = 6
     identifier = "docs-roadmap"
     url = "/docs/roadmap/"
 
 [[menu.main]]
     name = "Q&A"
     parent = "docs"
-    weight = 6
+    weight = 7
     identifier = "docs-qa"
     url = "/docs/qa"
 

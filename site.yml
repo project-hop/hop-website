@@ -13,6 +13,9 @@ content:
   - url: git@github.com:project-hop/hop-doc.git
     branches: master
     start_path: /hop-tech-manual/
+  - url: git@github.com:project-hop/hop-doc.git
+    branches: master
+    start_path: /hop-dev-manual/
     
 ui:
   bundle:
