@@ -6,6 +6,16 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 {{< section "frontpage columns" >}}
 
 # News
+{{< div "box" >}}
+{{< div >}}
+
+## February Roundup
+
+Hop fans! It's been a while since we have given you all an update on how the project is going. We have been very busy with refactoring and creating a solid foundation to add future features to Hop. To keep you all informed we will be adding a monthly roundup to the website to show you what we are working on, what works and what you can expect in the near future.
+
+First edition of the monthly progress can be found  **[here](/news/roundup-2020-02/)**
+{{< /div >}}
+{{< /div >}}
 
 {{< div "box" >}}
 {{< div >}}
