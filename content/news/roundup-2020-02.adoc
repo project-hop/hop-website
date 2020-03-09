@@ -39,11 +39,11 @@ Plugins, plugins, plugins! That will be the motto for Hop. The goal is to make e
 
 We are stripping all non needed functionality from the core, engine and UI and moving them to plugins. this means the footprint and resources used by Hop are dropping at a rapid pace! And it opens the gates to create distributions and packages catered at specific needs. You only need 1 database connection type? Why have 40 types included in hop core?
 
-Status Database types: we have moved almost all types to plugins, there are a couple of deeper nested types that are still stuck in core. planning to move them soon!
+* Status Database types: we have moved almost all types to plugins, there are a couple of deeper nested types that are still stuck in core. Planning to move them soon!
 
-Status Step/Job entries, Transform/Actions: Removed almost all types from the engine, currently in the process of turning them into plugins
+* Status Step/Job entries, Transform/Actions: Removed almost all types from the engine, currently in the process of turning them into plugins
 
-Status Engines: not yet started but will definitely happen! 
+* Status Engines: not yet started but will definitely happen! 
 
 ## Dependency cleanup
 
@@ -51,7 +51,7 @@ We are looking at every dependency that is being used in Hop and examining if th
 
 ## Metastore
 
-Slowly all objects are moving to the metastore, it is currently not our main priority but it is happening. First up are the database connections, they are currently being stored in the metastore but in the end all objects will be stored there to create a clean and portable environment. no more hard coded connecitions inside pipeline!
+Slowly all objects are moving to the metastore, it is currently not our main priority but it is happening. First up are the database connections, they are currently being stored in the metastore but in the end all objects will be stored there to create a clean and portable environment. No more hard coded connections inside pipeline!
 
 ## Future
 
