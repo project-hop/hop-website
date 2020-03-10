@@ -6,6 +6,9 @@ The following tools are used within the Hop community.
 
 * <<github, Github>>
 * <<jira, Jira>>
+* <<jenkins, Jenkins>>
+* <<artifactory, Artifactory>>
+* <<sonarcloud, Sonarcloud>>
 * <<wiki, Wiki>>
 * <<forum, Forum>>
 * <<chat, Mattermost Chat>>
@@ -22,6 +25,21 @@ While GitHub provides solutions to do issue tracking we use a separate platform 
 All new features and issues found in Hop can be reported in our bug tracker. If you find an issue or want to request new features first read our link:/community/contribution-guides/jira-guide/[Jira-guide] this document contains the basic steps needed to create a ticket that we can work on.
 
 To see what we are currently working on visit our https://project-hop.atlassian.net/secure/RapidBoard.jspa?rapidView=2&projectKey=HOP[Jira Board , window="_blank"]
+
+== anchor:jenkins[]Jenkins
+Jenkins is a Continuous Integration/Deployment platform, when a commit has been made and source code is changed Jenkins will automatically trigger and test and build the code. It will also check pull requests. Our current Jenkins setup is a fairly basic workflow which will be extended in the future to include more checks and steps.
+
+You can follow and see the status of all build project on our https://jenkins.project-hop.org[Jenkins Website]
+
+== anchor:artifactory[]Artifactory
+Artifactory is a storage location for artifacts that are created by maven. Each Jenkins build will push Artifacts to artifactory, you can then include these artifacts in your own projects.
+
+Artifactyory can be found https://artifactory.project-hop.org[here]
+
+== anchor:sonarcloud[]Sonarcloud
+Sonarcloud is a platform that does code checks and validates the quality of your code. The goal of project hop is to create solid clean code, Sonarcloud helps us achieve this goal. Currently it does not look good yet but we are still in a stage where we are refactoring and cleaning up the Hop code base.
+
+You can take a look at the status of our project https://sonarcloud.io/dashboard?id=hop[here]
 
 == anchor:wiki[]Wiki
 
