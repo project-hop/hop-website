@@ -47,7 +47,7 @@ We are stripping all non needed functionality from the core, engine and UI and m
 
 ## Dependency cleanup
 
-We are looking at every dependency that is being used in Hop and examining if they are still needed and if they are compliant for out future ASF plans, this has resulted in a big dependency upgrade and cleanup, we are also moving to the latest version of each and every dependency. We are also moving the dependencies to the plugins this means that the hop core and engine are smaller, a lot smaler! Installation without plugins currently only takes 95MB, Hop with all its dependencies only takes 180MB!
+We are looking at every dependency that is being used in Hop and examining if they are still needed and if they are compliant for our future ASF plans, this has resulted in a big dependency upgrade and cleanup, we are also moving to the latest version of each and every dependency. We are also moving the dependencies to the plugins this means that the hop core and engine are smaller, a lot smaller! Installation without plugins currently only takes 95MB, Hop with all its dependencies only takes 180MB!
 
 ## Metastore
 
