@@ -6,14 +6,15 @@ draft: true
 
 # Roundup February 2020
 
-A new month, a new roundup! we are getting very close to a first preview release we expect it to see the light of day in the coming week (don't haunt us if it's a week later). We have continued to walk the path we were already walking and are doing major code cleanup and refactoring. Because we don't want to bore you with the technical stuff (those interested in the technical stuff come and ask in our https://chat.project-hop.org[#dev channel] ) here is an overview of what you can see.
+A new month, a new roundup! We're getting very close to a first preview release, expect it to see the light of day in the coming week (don't haunt us if it's a week later).
+We have continued to walk the path of major code cleanup and refactoring. Because we don't want to bore you with the technical stuff (those interested in the technical stuff come and ask in our https://chat.project-hop.org[#dev channel] ) here is an overview of what you can see.
 
 
 ## UI
 
-We were able to remove the old interface and now only the new GUI is included in the code. The new UI is greatly simplified and more flexible and future proof.
+We removed the old interface. Hop now comes with the new UI. Simplified, flexible and future proof.
 
-After implemtenting the transform interface the workflow interface has been included too
+After implementing the transform interface the workflow interface has been included too
 
 image:/img/Roundup-2020-03/roundup-2020-03-0001.png[Interface 1 , 50% , align="left" , link="/img/Roundup-2020-03/roundup-2020-03-0001.png"]
 
@@ -28,27 +29,28 @@ image:/img/Roundup-2020-03/roundup-2020-03-0003.png[Transform action , 50% , ali
 
 ## Plugins
 
-As stated in the previous post we are moving all actions that can be done to separate plugins this greatly increases flexibility and allows for smaller more custom deployments in te future.
+As stated in the previous post, we're moving all actions to separate plugins. This adds flexibility to the entire code base and allows for smaller, more custom deployments in the future.
 
 Current status:
 
 * Database plugins: all done
 * Workflow actions: all done
-* Transform actions: 40 done about 100 to go
+* Transform actions: 40 done, about 100 to go
 
-The transform actions are more complex and some of them are in need of code refactoring so this will be an ongoing process.
+The transform actions are more complex since some of them need significant code refactoring, so this will be an ongoing process.
 
 ## Translator
 
-We also included a small project for those interested to translate hop to your own native language or complete the current translations for the project.
+We also included the Hop Translator for community members who'd like to translate Hop to their native language, or complete the current translations for the project.
 
 In the hop folder you will find a hop-translator.sh script.
 
 image:/img/Roundup-2020-03/roundup-2020-03-0004.png[Translator , 50% , align="left" , link="/img/Roundup-2020-03/roundup-2020-03-0004.png"]
 
-This program requires a local clone of the hop project, and will show you what has been translated and what is on the to-do list. Instructions on how to use the translator can be found https://www.project-hop.org[here]
+This program requires a local clone of the hop project, and will show you what has been translated and what is on the to-do list. Instructions on how to use the translator can be found in the http://www.project-hop.org/community/contribution-guides/translation-contribution-guide/[Translation Contribution Guide]
 
 
 ## Future
 
-First up is our preview release! When this version is released we will rely on you all to create tickets and provide us with valuable feedback on how to keep improving the project. After this we will start focussing on making the engines plugable and integrate Apache Beam support. Including our continued effort to clean up the existing code.
+First up is our preview release! When this version is released we will rely on you all to create tickets and provide us with valuable feedback on how we can continue to improve the project.
+After this initial preview release, we'll continue the code cleanup and will start making the runtime engines pluggable, Apache Beam will be the first engine we'll support.
