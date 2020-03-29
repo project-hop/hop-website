@@ -13,3 +13,4 @@ resources
 .pnp
 .pnp.js
 .settings
+antora-ui-hop/package-lock.json
