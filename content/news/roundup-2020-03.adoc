@@ -1,7 +1,7 @@
 ---
 title: "Roundup March 2020"
-date: 2020-03-29T15:01:56+02:00
-draft: true
+date: 2020-03-31T12:01:56+02:00
+draft: false
 ---
 
 # Roundup February 2020
@@ -42,6 +42,7 @@ The transform actions are more complex since some of them need significant code 
 ## Translations
 
 We received a contribution for the pt_BR locale. Hop is now available Brazilian Portugese. 
+
 Check the Translator below to find out how you can help to translate Hop into your language
 
 ## Translator
