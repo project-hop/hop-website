@@ -65,14 +65,14 @@ image:/img/getting-started/getting-started-pipeline-toolbar.png[Hop - Pipeline T
 * undo image:/img/getting-started/icons/Antu_edit-undo.svg[Undo, 25px, align="bottom"]: undo an operation
 * redo image:/img/getting-started/icons/Antu_edit-redo.svg[Redo, 25px, align="bottom"]: redo an operation
 
-* align image:/img/getting-started/icons/snap-to-grid.svg[Snap To Grid, 25px, align="bottom"]: align the specified (selected) actions to the specified grid size
-* align left image:/img/getting-started/icons/align-left.svg[Align Left, 25px, align="bottom"]: align the selected actions with left-most selected action in the selection
-* align right image:/img/getting-started/icons/align-right.svg[Align Right, 25px, align="bottom"]: align the selected actions with right-most selected action in the selection
-* align top image:/img/getting-started/icons/align-top.svg[Align Top, 25px, align="bottom"]: align the selected actions with top-most selected action in the selection
-* align bottom image:/img/getting-started/icons/align-bottom.svg[Align Bottom, 25px, align="bottom"]: align the selected actions with bottom-most selected action in the selection
+* align image:/img/getting-started/icons/snap-to-grid.svg[Snap To Grid, 25px, align="bottom"]: align the specified (selected) transforms to the specified grid size
+* align left image:/img/getting-started/icons/align-left.svg[Align Left, 25px, align="bottom"]: align the selected transforms with left-most selected transform in the selection
+* align right image:/img/getting-started/icons/align-right.svg[Align Right, 25px, align="bottom"]: align the selected transforms with right-most selected transform in the selection
+* align top image:/img/getting-started/icons/align-top.svg[Align Top, 25px, align="bottom"]: align the selected transforms with top-most selected transform in the selection
+* align bottom image:/img/getting-started/icons/align-bottom.svg[Align Bottom, 25px, align="bottom"]: align the selected transforms with bottom-most selected transform in the selection
 
-* distribute horizontally: image:/img/getting-started/icons/distribute-horizontally.svg[Distribute Horizontally, 25px, align="bottom"]: Distribute the selected actions evenly between the left-most and right-most action in your selection
-* distribute vertically: image:/img/getting-started/icons/distribute-vertically.svg[Distribute Vertically, 25px, align="bottom"]: Distribute the selected actions evenly between the top-most and bottom-most action in your selection
+* distribute horizontally: image:/img/getting-started/icons/distribute-horizontally.svg[Distribute Horizontally, 25px, align="bottom"]: Distribute the selected transforms evenly between the left-most and right-most transform in your selection
+* distribute vertically: image:/img/getting-started/icons/distribute-vertically.svg[Distribute Vertically, 25px, align="bottom"]: Distribute the selected transforms evenly between the top-most and bottom-most transform in your selection
 
 === Run your first Pipeline
 
