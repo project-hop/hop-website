@@ -39,6 +39,11 @@ Current status:
 
 The transform actions are more complex since some of them need significant code refactoring, so this will be an ongoing process.
 
+## Translations
+
+We received a contribution for the pt_BR locale. Hop is now available Brazilian Portugese. 
+Check the Translator below to find out how you can help to translate Hop into your language
+
 ## Translator
 
 We also included the Hop Translator for community members who'd like to translate Hop to their native language, or complete the current translations for the project.
