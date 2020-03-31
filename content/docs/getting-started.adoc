@@ -2,17 +2,72 @@
 title: "Getting Started"
 ---
 
-== Getting Hop
+== Getting Started with Hop
 * https://artifactory.project-hop.org/artifactory/hop-snapshots-local/org/hop/hop-assemblies-client/0.1.0-SNAPSHOT/[Download] a recent Hop build.
-* unzip hop
-* go to your newly created 'hop' directory
-* start hop-ui.sh/bat
+* unzip hop to a local directory
+* change to the hop directory
 
-== What Works
-* start Hop UI: run hop-ui.sh/bat
-* start the new database dialog preview: ./dbd.sh
-* start Hop server: './hop-server.sh <HOST> <PORT>', e.g. './hop-server.sh localhost 8000'
-* run jobs and transformations through Hop Server using the https://help.pentaho.com/Documentation/8.2/Developer_Center/REST_API/Carte[Carte API]
+== Introducing Hop
+Hop is a metadata driven environment where you manage your data processing workflows.
 
-== What doesn't work
-* some menu elements that use XUL
+A 'flow' or 'workflow' is a (by default) sequential process that has a starting point and one or more endpoints.
+Between the start and endpoint, a variety of 'actions' can be performed. These actions can range from executing other workflows or pipelines, archiving files that were processed, sending error messages or success notifications and much more.
+
+Pipelines are more granular items of work. A pipeline is where the actual work is done. Pipelines consist of a chain of transforms that read, process or write data.
+Depending on the execution engine your pipelines run, this can be in batch, streaming or a hybrid mode.
+
+The following tools are at your disposal to work with Hop flows and pipelines:
+
+* the **Hop Gui** is your visual IDE to build, preview, run, test, deploy, ... workflows and pipelines.
+* the **Hop Server** is a lightweight web server that provides a REST api to run workflows and pipelines remotely.
+* **Hop Run** is a command line utility to run workflows and pipelines.
+
+== The Hop GUI
+
+The Hop Gui is your local development environment to build, run, preview and debug (work)flows and pipelines.
+
+=== Start the Hop GUI
+
+On Linux:
+[source,bash]
+ ./hop-gui.sh
+
+On Windows:
+[source,bash]
+hop-gui.bat
+
+=== Hop GUI Walkthrough
+
+TODO
+
+=== Create your first Workflow
+
+TODO
+
+=== Run your first Workflow
+
+TODO
+
+=== Create your first Pipeline
+
+TODO
+
+=== Run your first Pipeline
+
+TODO
+
+=== Debugging a Pipeline
+
+TODO
+
+=== Previewing a Pipeline
+
+TODO
+
+== Hop Server
+
+TODO
+
+== Hop Run
+
+TODO
