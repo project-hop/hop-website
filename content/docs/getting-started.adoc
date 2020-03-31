@@ -38,19 +38,41 @@ hop-gui.bat
 
 === Hop GUI Walkthrough
 
-TODO
+After starting the Hop Gui, you'll be presented with a window like the one below.
+image:/img/getting-started/getting-started-hop-gui.png[Hop Gui , 50% , align="left" , link="/img/getting-started/getting-started-hop-gui.png"]
 
-=== Create your first Workflow
-
-TODO
-
-=== Run your first Workflow
-
-TODO
+After clicking the 'New' icon in the upper left corner, you'll be presented with the window below.
+Choose either 'New Job' or 'New Transformation' (TODO: replace screenshot after refactoring to 'new Flow' and 'New Pipeline').
+image:/img/getting-started/getting-started-new-dialog.png[Hop - New Dialog, 50% , align="left" , link="/img/getting-started/getting-started-new-dialog.png"]
 
 === Create your first Pipeline
 
-TODO
+Your new pipeline is created, and you'll see the dialog below.
+
+image:/img/getting-started/getting-started-new-pipeline.png[Hop - New Pipeline, 50%, align="left", link="/img/getting-started/getting-started-new-pipeline.png]
+
+Let's walk through the top toolbar:
+image:/img/getting-started/getting-started-pipeline-toolbar.png[Hop - Pipeline Toolbar, align="left", link="img/getting-started/getting-started-pipeline-toolbar.png"]
+
+* run image:/img/getting-started/icons/run.svg[Run, 25px, align="bottom"]: start the execution of the pipeline
+* pause image:/img/getting-started/icons/pause.svg[Pause, 25px, align="bottom"]: pause the execution of the pipeline
+* stop image:/img/getting-started/icons/stop.svg[Stop, 25px, align="bottom"]: stop the  execution of the pipeline
+
+* preview image:/img/getting-started/icons/view.svg[Preview, 25px, align="bottom"]: preview the pipeline
+* debug image:/img/getting-started/icons/debug.svg[Debug, 25px, align="bottom"]: debug the pipeline
+* print image:/img/getting-started/icons/print.png[Print, 25px, align="bottom"]: print the pipeline
+
+* undo image:/img/getting-started/icons/Antu_edit-undo.svg[Undo, 25px, align="bottom"]: undo an operation
+* redo image:/img/getting-started/icons/Antu_edit-redo.svg[Redo, 25px, align="bottom"]: redo an operation
+
+* align image:/img/getting-started/icons/snap-to-grid.svg[Snap To Grid, 25px, align="bottom"]: align the specified (selected) actions to the specified grid size
+* align left image:/img/getting-started/icons/align-left.svg[Align Left, 25px, align="bottom"]: align the selected actions with left-most selected action in the selection
+* align right image:/img/getting-started/icons/align-right.svg[Align Right, 25px, align="bottom"]: align the selected actions with right-most selected action in the selection
+* align top image:/img/getting-started/icons/align-top.svg[Align Top, 25px, align="bottom"]: align the selected actions with top-most selected action in the selection
+* align bottom image:/img/getting-started/icons/align-bottom.svg[Align Bottom, 25px, align="bottom"]: align the selected actions with bottom-most selected action in the selection
+
+* distribute horizontally: image:/img/getting-started/icons/distribute-horizontally.svg[Distribute Horizontally, 25px, align="bottom"]: Distribute the selected actions evenly between the left-most and right-most action in your selection
+* distribute vertically: image:/img/getting-started/icons/distribute-vertically.svg[Distribute Vertically, 25px, align="bottom"]: Distribute the selected actions evenly between the top-most and bottom-most action in your selection
 
 === Run your first Pipeline
 
@@ -61,6 +83,13 @@ TODO
 TODO
 
 === Previewing a Pipeline
+
+TODO
+=== Create your first Workflow
+
+TODO
+
+=== Run your first Workflow
 
 TODO
 
