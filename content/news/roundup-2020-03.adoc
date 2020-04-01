@@ -55,8 +55,16 @@ image:/img/Roundup-2020-03/roundup-2020-03-0004.png[Translator , 50% , align="le
 
 This program requires a local clone of the hop project, and will show you what has been translated and what is on the to-do list. Instructions on how to use the translator can be found in the http://www.project-hop.org/community/contribution-guides/translation-contribution-guide/[Translation Contribution Guide]
 
+## Exit Transformations, Enter Pipelines
+
+We started the refactoring of the code base to reflect the new Hop terminology.
+
+A 'transformation' now is a thing of the past, we entered 'pipeline' territory, and a pipeline's file extension changed from 'ktr' to 'hpl' (**H**op **P**ipe**L**ine).
+
+We'll continue to go through this refactoring process: 'steps' will become 'transforms', 'jobs' will become '(work)flows', 'job entries' will become 'actions'.
 
 ## Future
 
-First up is our preview release! When this version is released we will rely on you all to create tickets and provide us with valuable feedback on how we can continue to improve the project.
+First up is our preview release! After this release we'll rely on you all to create tickets and provide us with valuable feedback on how we can continue to improve the project.
+
 After this initial preview release, we'll continue the code cleanup and will start making the runtime engines pluggable, Apache Beam will be the first engine we'll support.
