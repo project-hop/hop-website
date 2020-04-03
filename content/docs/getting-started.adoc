@@ -41,17 +41,17 @@ hop-gui.bat
 === Hop GUI Walkthrough
 
 After starting the Hop Gui, you'll be presented with a window like the one below.
-image:/img/getting-started/getting-started-hop-gui.png[Hop Gui , 50% , align="left" , link="/img/getting-started/getting-started-hop-gui.png"]
+image:/img/getting-started/getting-started-hop-gui.png[Hop Gui , 75% , align="left" , link="/img/getting-started/getting-started-hop-gui.png"]
 
 After clicking the 'New' icon in the upper left corner, you'll be presented with the window below.
 Choose either 'New Job' or 'New Transformation' (TODO: replace screenshot after refactoring to 'new Flow' and 'New Pipeline').
-image:/img/getting-started/getting-started-new-dialog.png[Hop - New Dialog, 50% , align="left" , link="/img/getting-started/getting-started-new-dialog.png"]
+image:/img/getting-started/getting-started-new-dialog.png[Hop - New Dialog, 75% , align="left" , link="/img/getting-started/getting-started-new-dialog.png"]
 
 ==== Pipeline Editor Overview
 
 Your new pipeline is created, and you'll see the dialog below.
 
-image:/img/getting-started/getting-started-new-pipeline.png[Hop - New Pipeline, 50%, align="left", link="/img/getting-started/getting-started-new-pipeline.png"]
+image:/img/getting-started/getting-started-new-pipeline.png[Hop - New Pipeline, 75%, align="left", link="/img/getting-started/getting-started-new-pipeline.png"]
 
 Let's walk through the top toolbar:
 image:/img/getting-started/getting-started-pipeline-toolbar.png[Hop - Pipeline Toolbar, align="left", link="img/getting-started/getting-started-pipeline-toolbar.png"]
@@ -82,6 +82,7 @@ image:/img/getting-started/getting-started-pipeline-toolbar.png[Hop - Pipeline T
 
 === Build Your First Pipeline
 
+==== Concepts
 Pipelines consist of two main work items:
 
 * **transforms** are the basic operations in your pipeline. A pipeline typically consists of a lot of transforms that are chained together by hops.
@@ -90,7 +91,29 @@ Transforms are granular, in the sense that each transform is designed and optimi
 * **hops** link transforms together. When a transform finishes processing the data set it received, that data set is passed to the next transform through a hop.
 Hops are uni-directional (data can't flow backwards). Hops only buffer and pass data around, the hop itself is transform-agnostic, it doesn't know anything about the transforms it passes data from or to.
 Some transforms can read from or write to other transforms conditionally to or from a number of other transforms, but this a transform-specific configuration. The hop is unaware of it.
-Hops can be disabled by clicking on them, or through right-click -> disable. 
+Hops can be disabled by clicking on them, or through right-click -> disable.
+
+==== Add Transforms
+
+Click anywhere in the pipeline canvas, the area where you'll see the image below.
+
+image:/img/getting-started/getting-started-click-anywhere.png[Hop - Click Anywhere, 45% , align="left" , link="/img/getting-started/getting-started-click-anywhere.png"]
+
+Upon clicking, you'll be presented with the dialog shown below. The search box at the top of this dialog works for transform, name, tags (TODO) etc.
+Once you've found the transform you're looking for, click on it to add it to your pipeline. An alternative to clicking is arrow key navigation + enter.
+Repeat this step now or whenever you want to add more transforms to your pipeline.
+Once you've added a transform to your pipeline, you can drag to reposition it.
+
+TODO: link to transform documentation.
+
+image:/img/getting-started/getting-started-add-transform.png[Hop - Add Transform, 75% , align="left" , link="/img/getting-started/getting-started-add-transform.png"]
+
+Add a 'Generate Rows' and a 'Add Sequence' transform, and your pipeline should like the one below.
+
+image:/img/getting-started/getting-started-add-two-transforms.png[Hop - Add two transforms, 75% , align="left" , link="/img/getting-started/getting-started-add-two-transforms"]
+
+
+==== Add a Hop
 
 === Run your first Pipeline
 
