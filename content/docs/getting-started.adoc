@@ -115,17 +115,70 @@ image:/img/getting-started/getting-started-add-two-transforms.png[Hop - Add two 
 
 ==== Add a Hop
 
+There are a number of ways to create a hop:
+
+* shift-drag: while holding down the shift key on your keyboard. Click on a transform, while holding down your primary mouse button, drag to the second transform. Release the primary mouse button and the shift key.
+* scroll-drag: scroll-click on a transform , while holding down your mouse's scroll button, drag to the second transform. Release the scroll button.
+* click on a transform in your pipeline to open the 'click anywhere' dialog. Click the 'Create hop' image:/img/getting-started/icons/HOP.svg[Create hop, 25px, align="bottom"] button and select the transform you want to create the hop to.
+
+image:/img/getting-started/getting-started-create-hop.png[Hop - Create Hop, 65% , align="left" , link="/img/getting-started/getting-started-create-hop"]
+
 === Run your first Pipeline
 
+Click the 'run' button image:/img/getting-started/icons/run.svg[Run, 25px, align="bottom"] in your pipeline toolbar
+
+image:/img/getting-started/getting-started-run-pipeline-dialog.png[Hop - Create Hop, 75% , align="left" , link="/img/getting-started/getting-started-create-hop"]
+
+Let's walk through the options in this dialog
+
+* Pipeline run configurations, edit, new, manage your run configurations. Run configurations are used to specify a name, description and engine to run your pipeline.
+* Log level: choose the log level for your pipeline. The available options are
+** nothing
+** error
+** minimal
+** basic
+** detailed
+** debugging
+** Row Level (very detailed)
+* Clear log before running (enabled by default): logging information from previous runs will be cleared from the logging tab.
+* parameters: This table will show the parameter name, default value and description. enter your runtime parameters in the 'value' field.
+* variables: add the variable name and value you want to set in this tab.
+* always show dialog on run (enabled by default): You'll be presented with this dialog every time you run this dialog. When disabled, the pipeline will run with the default options.
+
+Click the 'New' button right next to the 'Pipeline run configuration'.
+Give your run configuration a name and (optionally) a description. Choose the 'local pipeline engine'. As the name implies, the 'local single threaded pipeline engine' runs the pipeline in a single CPU thread. The default 'local pipeline engine' will create a separate CPU thread for each transform in your pipeline to evenly spread the load of your pipeline over your CPU cores.
+
+image:/img/getting-started/getting-started-run-configuration-dialog.png[Hop - Run Configuration Dialog, 75% , align="left" , link="/img/getting-started/getting-started-run-configuration-dialog"]
+
+Click 'Ok' to create your configuration and select it from the dropdown list.
+For this getting started guide, we'll leave all other options to the defaults. Click 'Launch'.
+
+Since we haven't saved our pipeline yet, you'll be prompted to do so by the dialog below.
+
+image:/img/getting-started/getting-started-save-pipeline.png[Hop - Save Pipeline, 55% , align="left" , link="/img/getting-started/getting-started-save-pipeline"]
+
+Your pipeline will finish in a matter of milliseconds, and the 'Execution Result' view will show up at the bottom of your IDE.
+This view has 5 tabs:
+
+* transformation metrics: transformName, read, written, input, output, update, rejected, errors, buffers input, buffers output, speed, status (TODO: elaborate)
+* logging: the logging output for your pipeline
+* preview data: a preview of the data for the selected transform. This grid shows the data as it passed through this transform.
+* metrics: TODO
+* performance graph: TODO
+
+image:/img/getting-started/getting-started-execution-results-metrics.png[Hop - Execution Results Metrics, 75% , align="left" , link="/img/getting-started/getting-started-execution-results-metrics"]
+
+
+
+
+=== Preview your first Pipeline
+
 TODO
 
-=== Debugging a Pipeline
+=== Debug your first Pipeline
 
 TODO
 
-=== Previewing a Pipeline
-
-TODO
 
 === Create your first Workflow
 
