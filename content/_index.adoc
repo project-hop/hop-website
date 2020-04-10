@@ -9,6 +9,26 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 {{< div "box" >}}
 {{< div >}}
 
+## Releases
+
+Our first preview release 0.10 is available!
+
+Here's what to expect in our Easter egg:
+
+* code cleanup, refactoring
+* everything is a plugin
+* new UI
+* translator
+* documentation
+
+**[0.10 Preview Release](/news/release-preview-0-10/)**
+
+{{< /div >}}
+{{< /div >}}
+
+{{< div "box" >}}
+{{< div >}}
+
 ## Monthly Roundup
 
 Hop fans! We'll be posting monthly roundups here to show you what we are working on, which new functionality is available and what you can expect in the near future.
@@ -25,7 +45,12 @@ Hop fans! We'll be posting monthly roundups here to show you what we are working
 
 ## Sneak Peek
 
-You can find instructions on downloading and testing the **in development** version of <mark>Hop Orchestration Platform</mark> [here](/download/download/), please note that this is not yet a stable or usable production version. You can log all issues you find on our [JIRA](https://project-hop.atlassian.net). Feel free and join the discussion on the future plans of Hop on our [Mattermost Chat](https://chat.project-hop.org/).
+You can find instructions to download and test the **nightly** version for the <mark>Hop Orchestration Platform</mark> [here](/download/download/).
+
+Please note that this is not a stable or usable production version.
+
+You can log all issues you find on our [JIRA](https://project-hop.atlassian.net). Feel free and join the discussion on the future plans of Hop on our [Mattermost Chat](https://chat.project-hop.org/).
+
 {{< /div >}}
 {{< /div >}}
 
