@@ -137,5 +137,5 @@ Contributing is much more than writing code. A couple of ways you can help out a
 
 Check out the http://www.project-hop.org/community/contributing/[Contribution Guide] to find out how you can contribute.
 
-Contribution in any shape or form are greatly appreciated!
+Contributions in any shape or form are greatly appreciated!
 
