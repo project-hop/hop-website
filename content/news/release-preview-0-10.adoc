@@ -123,3 +123,19 @@ Work isn't done with this preview release.
 Next up are pluggable runtime engine. The first engine we'll support will be Apache Beam, but there will be many more.
 
 We intend to start the Apache Incubation process soon. We strongly believe the move to Apache Hop will increase Project Hop's adoption. We are looking forward to working with the Apache Software Foundation and to integrating with the great software they provide.
+
+## Call For Contributors
+
+Project Hop is a team effort, we need your help to make this a success!
+
+Contributing is much more than writing code. A couple of ways you can help out are
+
+* testing and creating https://jira.project-hop.org[bug tickets]
+* create https://jira.project-hop.org[feature requests]
+* write documentation
+* spreading the word
+
+Check out the http://www.project-hop.org/community/contributing/[Contribution Guide] to find out how you can contribute.
+
+Contribution in any shape or form are greatly appreciated!
+
