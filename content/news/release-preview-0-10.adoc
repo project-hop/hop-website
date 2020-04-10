@@ -15,6 +15,8 @@ Please take it for a spin. If you find a bug, please create a https://jira.proje
 
 **http://www.project-hop.org/docs/getting-started/[Getting Started Guide]**
 
+**https://project-hop.atlassian.net/secure/ReleaseNote.jspa?projectId=10002&version=10000[Release Notes]**
+
 ## What is Project Hop
 
 Project Hop's goal is to provide an easy, flexible and metadata-driven way of data processing and data orchestration.
