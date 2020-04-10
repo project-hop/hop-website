@@ -1,7 +1,7 @@
 ---
 title: "Preview Release 0.10"
 date: 2020-04-10T12:01:56+02:00
-draft: true
+draft: false
 ---
 
 # Preview Release 0.10
