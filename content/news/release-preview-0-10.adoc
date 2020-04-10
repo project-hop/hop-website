@@ -11,7 +11,7 @@ After more than half a year of hard work, we felt the time was right to show the
 We're happy to announce to availability of our 0.10 preview release.
 Please take it for a spin. If you find a bug, please create a https://jira.project-hop.org[bug ticket], if there's functionality you'd like to see, please create a https://jira.project-hop.org[feature request].
 
-**Direct download https://www.project-hop.org/[here]**
+**Direct download https://artifactory.project-hop.org/artifactory/hop-releases/org/hop/hop-assemblies-client/0.10/hop-assemblies-client-0.10.zip[here]**
 
 **http://www.project-hop.org/docs/getting-started/[Getting Started Guide]**
 
