@@ -1,9 +1,8 @@
 'use strict'
 
 module.exports = (page) => {
-  if (page.attributes.source) {
-    const idx = page.origin.editUrlPattern.indexOf(page.origin.startPath + '/%s')
-    return page.origin.editUrlPattern.substring(0, idx) + page.attributes.source
+  if (page.attributes !== undefined && page.attributes.alternativeediturl !== undefined) {
+    return page.attributes.alternativeediturl
   }
-  return page.editUrl
+  return null
 }
