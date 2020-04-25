@@ -2,7 +2,7 @@
   background: rgba(201, 232, 251, 0.8);
   color: #222;
   padding: 6px;
-  font-size: 13px;
+  font-size: 1rem;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -15,7 +15,8 @@
   width: 100%;
   position: absolute;
   bottom: 0;
-  font-size: 26px;
+  left: 0;
+  font-size: 2rem;
 }
 
 #cookies-eu-content a {
@@ -32,7 +33,7 @@
   cursor: pointer;
   padding: 4px 7px;
   margin: 2px 0;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
   transition: background 0.07s, color 0.07s, border-color 0.07s;
 }
@@ -47,7 +48,7 @@
   cursor: pointer;
   padding: 4px 7px;
   margin: 2px 0;
-  font-size: 13px;
+  font-size: 0.7rem;
   font-weight: bold;
   transition: background 0.07s, color 0.07s, border-color 0.07s;
   position: absolute;
@@ -83,4 +84,10 @@
   border-color: #fff;
   background: rgba(201, 232, 251, 0.8);
   color: #222;
+}
+
+@media screen and (max-width: 1023px) {
+  #cookies-eu-content {
+    font-size: 6vw;
+  }
 }
