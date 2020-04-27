@@ -12,23 +12,9 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 ## Events
 
 <img src="calendar/hangouts-meet-icon.png" style="width: 50px; height:50px; float: left;" alt="Hot Hop Hangout">
-<p>The first Hot Hop Hangout (3H1) took place and we have over 30 people joining.  Thanks for participating.
-We'll try to do a hangout every month to share progress!<br>
+<p>The first Hot Hop Hangout (3H1) on April 23rd was a great success with over 30 people joining.  Thank you all for participating!  We'll try to do a hangout every month to share our progress!<br>
 
-<table>
-  <tr>
-    <td>Google Calendar:</td>
-    <td>
-      <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200422T183000Z%2F20200422T193000Z&text=Hot%20Hop%20Hangout%201%20&location=https%3A%2F%2Ft.co%2FVaA6bu6HCy%3Famp%3D1&details=In%20this%20first%20Hot%20Hop%20Hangout%2C%20we'll%20talk%20about%20and%20demo%20the%20current%20status%20of%20the%20Hop%20project%20and%20%20where%20we're%20going.%20"><img src="img/calendar/gcal.png" style="width:25px; height:25px;" alt="Google Calendar"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>ICS (iCal, Outlook):</td>
-    <td>
-      <a href="calendar/hhh-20200422.ics"><img src="img/calendar/ical.png" style="height:25px; width: 25px;" alt="iCal"></a>
-    </td>
-  </tr>
-</table>
+
 
 {{< /div >}}
 {{< /div >}}
