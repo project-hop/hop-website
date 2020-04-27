@@ -12,10 +12,8 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 ## Events
 
 <img src="calendar/hangouts-meet-icon.png" style="width: 50px; height:50px; float: left;" alt="Hot Hop Hangout">
-<p>The first Hot Hop Hangout (3H1) is just a couple of days away!<br>
-We'll talk about the current status of Project Hop and where we're going.
-This won't be just talking heads, there will be plenty of time for demos and Q&A.<br>
-<strong><a href="https://t.co/VaA6bu6HCy?amp=1">Join us</a></strong> on <strong>April, 22nd, 8:30 CET</strong></p>
+<p>The first Hot Hop Hangout (3H1) took place and we have over 30 people joining.  Thanks for participating.
+We'll try to do a hangout every month to share progress!<br>
 
 <table>
   <tr>
