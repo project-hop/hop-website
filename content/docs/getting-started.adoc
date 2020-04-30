@@ -18,6 +18,17 @@ Between the start and endpoint, a variety of 'actions' can be performed. These a
 * **Pipelines**  are more granular items of work. A pipeline is where the actual work is done. Pipelines consist of a chain of transforms that read, process or write data.
 Depending on the execution engine your pipelines run, this can be in batch, streaming or a hybrid mode.
 
+The actions in a workflow and the transforms in a pipeline are connected by 'hops'. Hop are visual links between actions (workflows) and transforms (pipelines).
+
+As you'll discover soon, the process of creating workflows and pipelines is very similar.
+
+However, there are a number of conceptual differences between workflows and pipelines that you have to keep in mind:
+
+* the pipeline engine executes all transforms in a pipeline simultaneously and in parallel. The workflow engine executes all actions in a workflow sequentially by default. When action finishes, the workflow engine checks which action needs to be executed next.
+* hops in a pipeline pass data between transforms. In a workflow, hops can conditionally determine which action the workflow needs to execute next (on success, on failure, unconditionally)
+* because of their sequential nature, workflows have 1 action to start from and 1 or more end actions. Pipelines can start with input from multiple transforms simultaneously.
+
+
 The following tools are at your disposal to work with Hop flows and pipelines:
 
 * the **Hop Gui** is your visual IDE to build, preview, run, test, deploy, ... workflows and pipelines.
@@ -220,16 +231,220 @@ image:/img/getting-started/getting-started-debug-results.png[Hop - Preview Resul
 
 === Create your first Workflow
 
-TODO
+The design and execution of workflows is very similar to that of pipelines. However, keep in mind that there are significant differences between how Hop handles workflows and pipelines under the hood.
+
+To create a workflow, hit the 'new' icon or 'CTRL-N'. From the pop-up dialog, select 'New workflow'.
+
+image:/img/getting-started/getting-started-new-workflow.png[Hop - New Workflow, 75% , align="left" , link="/img/getting-started/getting-started-new-workflow"]
+
+Add the following actions to your workflow and create the hops to connect them:
+
+* Start
+* Pipeline
+* Success
+
+image:/img/getting-started/getting-started-new-workflow-actions.png[Hop - New Workflow with actions, 75% , align="left" , link="/img/getting-started/getting-started-new-workflow-actions"]
+
+Double-click or single-click and choose 'Edit action' to configure the action for the pipeline you just created.
+
+In the pipeline dialog, use the 'Browse' button to select your pipeline and give the action an appropriate name, for example 'First Pipeline'.
+
+Click 'OK'.
+
+image:/img/getting-started/getting-started-new-workflow-pipeline-action.png[Hop - New Workflow pipeline action, 75% , align="left" , link="/img/getting-started/getting-started-new-workflow-pipeline-action"]
+
+Notice how the hops in your workflow are a little different from what you've seen in pipeline hops.
+
+Add a fourth action 'Abort' and create a hop from your pipeline action.
+
+image:/img/getting-started/getting-started-new-workflow-abort.png[Hop - New Workflow abort, 75% , align="left" , link="/img/getting-started/getting-started-new-workflow-abort"]
+
+You now have the three types of hops that are available in workflows:
+
+* unconditional (lock icon, black hop): 'unconditional' hops are followed no matter what the exit code (true/false) of the previous action is
+* success (green hop, check mark): 'success' hops are used when the previous action executed successfully.
+* failure (red hop, error mark): 'failure' or 'error' hops are followed when the previous action failed.
+
+NOTE: The hop type can be changed by clicking on the hop's icon.
+
+With these three hop types and the actions at your disposal, you're ready to create powerful data orchestration workflows.
 
 === Run your first Workflow
 
-TODO
+As with designing workflows, the steps to run a workflow are very similar to running a pipeline.
+
+Click the 'run' button image:/img/getting-started/icons/run.svg[Run, 25px, align="bottom"] in your workflow toolbar
+
+In the workflow run dialog, hit the 'New' button in the upper right corner to create a new 'Workflow run configuration'.
+
+image:/img/getting-started/getting-started-run-workflow-dialog.png[Hop - New Workflow Config, 75% , align="left" , link="/img/getting-started/getting-started-run-workflow-dialog"]
+
+In the dialog that pops up, add 'Local Workflow' as the workflow configuration name and choose the 'Local workflow engine'.
+
+image:/img/getting-started/getting-started-run-workflow-config-dialog.png[Hop - New Workflow Config Dialog, 75% , align="left" , link="/img/getting-started/getting-started-run-workflow-config-dialog"]
+
+Click 'OK' to return to the workflow run dialog, make sure your configuration is selected and hit 'Launch'.
+
+image:/img/getting-started/getting-started-run-workflow-with-config.png[Hop - New Workflow With Config Dialog, 75% , align="left" , link="/img/getting-started/getting-started-run-workflow-with-config"]
+
+This workflow with our very basic pipeline should execute in less than one second. You'll now have the execution results pane which again looks very similar to the pipeline execution results.
+
+The first tab in your workflow execution is 'Logging'. This tab shows the logging information for your entire workflow. Any errors that occurred in your workflow will be highlighted in red.
+
+image:/img/getting-started/getting-started-run-workflow-logging.png[Hop - New Workflow Logging, 75% , align="left" , link="/img/getting-started/getting-started-run-workflow-logging"]
+
+The second tab are your workflow metrics. This tab is less verbose, but gives you an action-by-action overview of the execution of your workflow. The black, green and red color codings indicate information, success and failure.
+In larger worfklows, the metrics tab will give you a quick overview of what happened in your workflow, what the required time per action was, etc.
+
+You'll use the logging tab to find more detailed information about what happened in your workflow or in a particular action.
+
+image:/img/getting-started/getting-started-run-workflow-metrics.png[Hop - New Workflow Metrics, 75% , align="left" , link="/img/getting-started/getting-started-run-workflow-metrics"]
+
 
 == Hop Server
 
-TODO
+After you've designed and tested your pipeline or transform locally, you may want to run it on a headless machine.
+
+The Hop Server is a light weight web server that you can use to run your workflows and pipelines remotely.
+
+First, we'll have to start the server. Head over to your Hop directory, and locate the 'hop-server' scripts (sh for Mac/Linux, bat for Windows).
+
+Running the script without any arguments will print its usage:
+
+[source,bash]
+Usage: hop-server <Interface address> <Port> [-h] [-p <arg>] [-s] [-u <arg>]
+or
+Usage: hop-server <Configuration File>
+Starts or stops the hopServer server.
+     -h,--help               This help text
+     -p,--password <arg>     The administrator password.  Required only if
+                             stopping the Hop Server server.
+     -s,--stop               Stop the running hopServer server.  This is only
+                             allowed when using the hostname/port form of the
+                             command.
+     -u,--userName <arg>     The administrator user name.  Required only if
+                             stopping the Hop Server server.
+Example: hop-server.sh 127.0.0.1 8080
+Example: hop-server.sh 192.168.1.221 8081
+Example: hop-server.sh /foo/bar/hop-server-config.xml
+Example: hop-server.sh http://www.example.com/hop-server-config.xml
+Example: hop-server.sh 127.0.0.1 8080 -s -u cluster -p cluster
+
+As an example, let's run our server on our local machine on port 8085:
+
+On Linux:
+[source,bash]
+ ./hop-server.sh localhost 8085
+
+On Windows:
+[source,bash]
+hop-server.bat localhost 8085
+
+The startup process shouldn't take more than 1 or 2 seconds, and should show 2 lines of logging information:
+
+[source,bash]
+2020/04/30 16:22:55 - HopServer - Installing timer to purge stale objects after 1440 minutes.
+2020/04/30 16:22:55 - HopServer - Created listener for webserver @ address : localhost:8085
+
+In your favorite browser, go to http://localhost:8085[] and sign in with the default user 'cluster' and password 'cluster'.
+
+Click the 'show status' link below to get to page shown in the second screenshot.
+
+image:/img/getting-started/getting-started-server-index.png[Hop - Server Index, 75% , align="left" , link="/img/getting-started/getting-started-server-index"]
+
+image:/img/getting-started/getting-started-server-status.png[Hop - Server Status, 75% , align="left" , link="/img/getting-started/getting-started-server-status"]
+
+We now have verified our server is up and running. Let's return to Hop Gui to configure a run configuration for it.
+Click the 'New' icon or 'CTRL-N' and select 'Slave Server'.
+
+image:/img/getting-started/getting-started-new-slave.png[Hop - New Slave, 75% , align="left" , link="/img/getting-started/getting-started-new-slave"]
+
+In the slave server dialog, enter the details for the local server we just created.
+
+image:/img/getting-started/getting-started-new-slave-config.png[Hop - New Slave Config, 75% , align="left" , link="/img/getting-started/getting-started-new-slave-config"]
+
+With our slave server in place, all that's left to do is to create a run configuration for this server.
+Head back to your pipeline (again, the process is similar for workflows), and hit 'run'. Before running your pipeline, create a new 'Pipeline run configuration'.
+
+Name this configuration 'Remote Pipeline', select 'Remote pipeline engine' as the engine type, select the 'local' run configuration we created earlier, and select 'localhost' for the slave server we just created.
+
+Select this run configuration and run your pipeline. Your execution results will be almost identical to the locale execution you did earlier, however, the logs will show you executed the pipeline remotely:
+
+[source,bash]
+2020/04/30 17:01:33 - first_pipeline - Executing this pipeline using the Remote Pipeline Engine with run configuration 'Remote Pipeline'
+...
+...
+...
+2020/04/30 17:01:34 - first_pipeline - Execution finished on a remote pipeline engine with run configuration 'Remote Pipeline'
+
+The execution results for this pipeline will now be available in our server's status page as well:
+
+image:/img/getting-started/getting-started-server-status-after-run.png[Hop - Server Status, 75% , align="left" , link="/img/getting-started/getting-started-server-status-after-run"]
+
+Select the pipeline or workflow line that you want to investigate, and choose one of the options from the options in the upper left corner of the pipeline or workflow overview table.
+Click the eye icon to open the details for that specfific execution:
+
+image:/img/getting-started/getting-started-server-status-after-run-details.png[Hop - Server Status Details, 75% , align="left" , link="/img/getting-started/getting-started-server-status-after-run-details"]
+
 
 == Hop Run
 
-TODO
+Hop Run is the last tool we'll discuss in this getting started overview.
+In many cases, you'll want to run your workflows and pipelines on a headless server, but don't necessarily want to run through rest services or from Hop Gui.
+
+Hop Run is a command line that can be used to run workflows or pipelines e.g. over ssh of from a cron job.
+
+The command to run is 'hop-run' (sh on Mac/Linux, bat on Windows).
+Without any arguments, hop-run shows its usage syntax:
+
+[source,bash]
+A filename is needed to run a workflow or pipeline
+Usage: <main class> [-hotw] [-e=<environment>] [-f=<filename>] [-l=<level>]
+                    [-r=<runConfigurationName>] [-p=<parameters>[,
+                    <parameters>...]]... [-s=<systemProperties>[,
+                    <systemProperties>...]]...
+  -e, --environment=<environment>
+                          The name of the environment to use
+  -f, --file=<filename>   The filename of the workflow or pipeline to run
+  -h, --help              Displays this help message and quits.
+  -l, --level=<level>     The debug level, one of NONE, MINIMAL, BASIC, DETAILED,
+                            DEBUG, ROWLEVEL
+  -o, --printoptions      Print the used options
+  -p, --parameters=<parameters>[,<parameters>...]
+                          A comma separated list of PARAMETER=VALUE pairs
+  -r, --runconfig=<runConfigurationName>
+                          The name of the Run Configuration to use
+  -s, --system-properties=<systemProperties>[,<systemProperties>...]
+                          A comma separated list of KEY=VALUE pairs
+  -t, --pipeline          Force execution of a pipeline
+  -w, --workflow          Force execution of a workflow
+
+
+Since we've been working with a very basic pipeline, running it from hop-run is as easy as specifying:
+* the pipeline filename to run
+* the run configuration to use
+
+[source,bash]
+ ./hop-run.sh -f /tmp/first_pipeline.hpl -r local
+
+You'll get output that will be very similar to the one below:
+
+[source,bash]
+2020/04/30 17:16:48 - first_pipeline - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2020/04/30 17:16:48 - first_pipeline - Execution started for pipeline [first_pipeline]
+2020/04/30 17:16:48 - Generate rows.0 - Finished processing (I=0, O=0, R=0, W=10, U=0, E=0)
+2020/04/30 17:16:48 - Add sequence.0 - Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2020/04/30 17:16:48 - first_pipeline - Pipeline duration : 0.079 seconds [  0.079 ]
+2020/04/30 17:16:48 - first_pipeline - Execution finished on a local pipeline engine with run configuration 'local'
+./hop-run.sh -f /tmp/first_pipeline.hpl -r local  5.62s user 0.34s system 258% cpu 2.309 total
+
+== Where to go from here?
+
+We'll be adding more documentation as we go, so keep an eye on the https://www.project-hop.org[Project Hop] documentation section.
+
+A good place to start exploring is the detailed documentation for:
+
+* http://www.project-hop.org/manual/latest/plugins/actions.html[Workflow Actions]
+* http://www.project-hop.org/manual/latest/plugins/transforms.html[Pipeline Transforms]
+
+NOTE: Project Hop considers high-quality documentation a very important part of the project. Help us to improve by creating tickets for any documentation errors, suggestions or feature requests in our https://jira.project-hop.org[JIRA system].
