@@ -133,12 +133,12 @@ Let's walk through the options in this dialog
 
 * Pipeline run configurations, edit, new, manage your run configurations. Run configurations are used to specify a name, description and engine to run your pipeline.
 * Log level: choose the log level for your pipeline. The available options are
-** nothing
-** error
-** minimal
-** basic
-** detailed
-** debugging
+** Nothing
+** Error
+** Minimal
+** Basic (default)
+** Detailed
+** Debugging
 ** Row Level (very detailed)
 * Clear log before running (enabled by default): logging information from previous runs will be cleared from the logging tab.
 * parameters: This table will show the parameter name, default value and description. enter your runtime parameters in the 'value' field.
@@ -169,15 +169,53 @@ This view has 5 tabs:
 image:/img/getting-started/getting-started-execution-results-metrics.png[Hop - Execution Results Metrics, 75% , align="left" , link="/img/getting-started/getting-started-execution-results-metrics"]
 
 
-
-
 === Preview your first Pipeline
 
-TODO
+While developing your pipeline, you'll often want to check your data as it enters or exits a transform.
+Previews are an easy way to take a glance at the state of your data stream as it exits a transform.
+
+To preview the data that is processed by a transform, click on a transform and select 'Preview output'.
+The same result can be achieved by selecting a transform in your pipeline (rectangle select) and clicking the preview (eye) icon in the pipeline toolbar.
+
+image:/img/getting-started/getting-started-preview-pipeline.png[Hop - Preview Transform, 75% , align="left" , link="/img/getting-started/getting-started-preview-pipeline"]
+
+You'll be presented with the dialog below. You can change the number of rows to preview (1000 by default), but in most cases, you'll just want to hit the green 'Quick Launch' button.
+
+image:/img/getting-started/getting-started-preview-dialog.png[Hop - Preview Dialog, 75% , align="left" , link="/img/getting-started/getting-started-preview-dialog"]
+
+Once your pipeline finished processing the selected number of rows for the selected transform, a new popup dialog will show your preview results.
+
+image:/img/getting-started/getting-started-preview-results.png[Hop - Preview Results, 75% , align="left" , link="/img/getting-started/getting-started-preview-results"]
+
+IMPORTANT: your **entire** pipeline is executed for a preview, you're just taking a peek into the processing at the selected transform. If your pipeline modifies data (writes, updates, deletes) further down the stream, those actions **will* be performed, even if you're previewing an earlier transform.
+
+Let's take a quick look at the buttons at the bottom of this dialog:
+
+* Close: closes the preview dialog. The pipeline will remain paused, and will therefore still be active.
+* Stop: stop the preview and the pipeline execution.
+* Get more rows: fetch the next 1000 (or any other selected amount of) rows for preview.
 
 === Debug your first Pipeline
 
-TODO
+Debugging a pipeline's transform is very similar to previewing. Instead of pausing the pipeline execution after a given number of rows, the pipeline is paused when a given condition is met.
+The process to start a debug session is similar to starting the preview: click on a transform and select 'Debug output' from the pop-up dialog, or select a transform and hit the bug-icon in the pipeline toolbar.
+
+image:/img/getting-started/getting-started-debug-pipeline.png[Hop - Preview Transform, 75% , align="left" , link="/img/getting-started/getting-started-debug-pipeline"]
+
+You'll be presented with the dialog below. You'll recognize this dialog from the 'preview' we just did, but instead, the 'Retrieve first rows (preview)' option is now unchecked, and 'Pause pipeline on condition' is checked.
+
+In the 'Break-point / pause condition' below that option, you can specify on which condition you want to debug. This dialog is the same as the http://www.project-hop.org/manual/latest/plugins/transforms/filterrows.html[Filter Rows] transform.
+
+In our very basic example, we've set a breakpoint on 'valuename > 5'.
+
+image:/img/getting-started/getting-started-debug-dialog.png[Hop - Preview Dialog, 75% , align="left" , link="/img/getting-started/getting-started-debug-dialog"]
+
+With the 'valuename > 5' breakpoint, our pipeline is paused as soon as this condition is met (valuename = 6). The rows preceding that moment are also shown, so you can investigate how your data was processed before the breakpoint condition was true.
+
+Similar to the preview options, you can close, stop or continue the debugging ('Get more rows'). When you tell your pipeline to 'Get more rows', the pipeline execution will be resumed until the breakpoint condition is met once more, instead of just fetching the next 1000 (default) rows.
+
+image:/img/getting-started/getting-started-debug-results.png[Hop - Preview Results, 75% , align="left" , link="/img/getting-started/getting-started-debug-results"]
+
 
 
 === Create your first Workflow
