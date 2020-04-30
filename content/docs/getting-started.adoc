@@ -55,7 +55,7 @@ After starting the Hop Gui, you'll be presented with a window like the one below
 image:/img/getting-started/getting-started-hop-gui.png[Hop Gui , 75% , align="left" , link="/img/getting-started/getting-started-hop-gui.png"]
 
 After clicking the 'New' icon in the upper left corner, you'll be presented with the window below.
-Choose either 'New Job' or 'New Transformation' (TODO: replace screenshot after refactoring to 'new Flow' and 'New Pipeline').
+Choose either 'New Workflow' or 'New Pipeline' (TODO: replace screenshot after refactoring to 'new Flow' and 'New Pipeline').
 image:/img/getting-started/getting-started-new-dialog.png[Hop - New Dialog, 75% , align="left" , link="/img/getting-started/getting-started-new-dialog.png"]
 
 ==== Pipeline Editor Overview
@@ -171,7 +171,7 @@ image:/img/getting-started/getting-started-save-pipeline.png[Hop - Save Pipeline
 Your pipeline will finish in a matter of milliseconds, and the 'Execution Result' view will show up at the bottom of your IDE.
 This view has 5 tabs:
 
-* transformation metrics: transformName, read, written, input, output, update, rejected, errors, buffers input, buffers output, speed, status (TODO: elaborate)
+* transform metrics: transformName, read, written, input, output, update, rejected, errors, buffers input, buffers output, speed, status (TODO: elaborate)
 * logging: the logging output for your pipeline
 * preview data: a preview of the data for the selected transform. This grid shows the data as it passed through this transform.
 * metrics: TODO
