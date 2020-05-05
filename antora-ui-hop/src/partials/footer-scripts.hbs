@@ -11,4 +11,20 @@
             ga('create', 'UA-151580460-1', 'auto' ,{'anonymize_ip':true});
             ga('send', 'pageview');
         }, true, false);
-    </script> 
+    </script>
+<script src="{{uiRootPath}}{{asset 'js/vendor/docsearch.min.js'}}"></script>
+<!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js -->
+<script>
+var search = docsearch({
+  appId: 'IEDZCR8JT4',
+  apiKey: '587e7bafb978fa5e4640ab18bfbd9b99',
+  indexName: 'hop-doc',
+  inputSelector: '#search-input',
+  autocompleteOptions: { hint: false, keyboardShortcuts: ['s'] },
+  algoliaOptions: { hitsPerPage: 10 }
+}).autocomplete
+search.on('autocomplete:closed', function () { search.autocomplete.setVal() })
+function focusSearchInput () { document.querySelector('#search-input').focus() }
+if (document.querySelector('.home-link.is-current')) window.addEventListener('load', focusSearchInput)
+</script>
+
