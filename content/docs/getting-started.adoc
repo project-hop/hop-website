@@ -55,7 +55,7 @@ After starting the Hop Gui, you'll be presented with a window like the one below
 image:/img/getting-started/getting-started-hop-gui.png[Hop Gui , 75% , align="left" , link="/img/getting-started/getting-started-hop-gui.png"]
 
 After clicking the 'New' icon in the upper left corner, you'll be presented with the window below.
-Choose either 'New Workflow' or 'New Pipeline' (TODO: replace screenshot after refactoring to 'new Flow' and 'New Pipeline').
+Choose either 'New Workflow' or 'New Pipeline'.
 image:/img/getting-started/getting-started-new-dialog.png[Hop - New Dialog, 75% , align="left" , link="/img/getting-started/getting-started-new-dialog.png"]
 
 ==== Pipeline Editor Overview

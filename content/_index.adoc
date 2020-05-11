@@ -24,6 +24,20 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 
 ## Releases
 
+Our second preview release 0.21 is available!
+
+What to expect:
+
+* continued cleanup, refactoring
+* continued plugin ports
+* UI improvements (hop context menu)
+* Environments and configuration
+* Unit testing
+* start of documentation
+
+**[0.21 Preview Release](/news/release-preview-0-21/)**
+
+<!--
 Our first preview release 0.10 is available!
 
 Here's what to expect in our Easter egg:
@@ -36,6 +50,8 @@ Here's what to expect in our Easter egg:
 
 **[0.10 Preview Release](/news/release-preview-0-10/)**
 
+-->
+
 {{< /div >}}
 {{< /div >}}
 
@@ -46,7 +62,9 @@ Here's what to expect in our Easter egg:
 
 Hop fans! We'll be posting monthly roundups here to show you what we are working on, which new functionality is available and what you can expect in the near future.
 
-**[March 2020](/news/roundup-2020-03/)**
+**[April 2020](/news/roundup-2020-04/)**
+
+[March 2020](/news/roundup-2020-03/)
 
 [February 2020](/news/roundup-2020-02/)
 

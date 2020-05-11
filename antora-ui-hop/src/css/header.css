@@ -316,3 +316,13 @@ body {
     margin: 1rem 0.8rem;
   }
 }
+
+.navbar-search {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 0;
+  justify-content: flex-end;
+  line-height: 1.6;
+  padding: 0.5rem;
+  font-weight: bold;
+}
