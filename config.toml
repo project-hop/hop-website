@@ -25,14 +25,14 @@ enableRobotsTXT = true
     parent = "docs"
     weight = 1
     identifier = "docs-getting-started"
-    url = "/docs/getting-started/"
+    url = "/manual/latest/getting-started.html"
 
 [[menu.main]]
     name = "User manual"
     parent = "docs"
     weight = 2
     identifier = "docs-user-manual"
-    url = "/manual/latest/getting-started.html"
+    url = "/manual/latest/"
 
 [[menu.main]]
     name = "Technical Documentation"
