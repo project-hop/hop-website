@@ -9,7 +9,7 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 {{< div "box" >}}
 {{< div >}}
 
-<a id="events" /><br /><br />
+<a id="events" />
 ## Events
 
 
