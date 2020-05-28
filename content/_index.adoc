@@ -11,7 +11,8 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 
 ## Events
 
-
+<a id="3h2" />
+<br />
 <img src="calendar/hangouts-meet-icon.png" style="width: 50px; height:50px; float: left;" alt="Hot Hop Hangout">
 <p>We'll have our second Hot Hop Hangout (3H2) on Thursday, June 4th at 20:00 CET.
 <br />The topics we'll discuss are:
