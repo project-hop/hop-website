@@ -42,6 +42,12 @@ The support for these 4 additional engines brings us closer to the "design once,
 
 image:/img/Roundup-2020-05/beam-runconfigurations.png[Beam Run Configurations , 65% , align="left" , link="/img/Roundup-2020-05/beam-runconfigurations.png"]
 
+## Hop Config
+
+We mentioned the addition of Hop Environments in the http://www.project-hop.org/news/roundup-2020-04/[April roundup] and the http://www.project-hop.org/news/release-preview-0-21/[0.21 release announcement].
+
+A new addition to the Hop Platform is Hop Config; a plugin driven tool to configure various aspects of your Hop environments and overall installation.
+
 
 ## Plugins
 
@@ -79,7 +85,7 @@ https://twitter.com/diethardsteiner[Diethard Steiner], a long time Kettle and no
 
 The goal of the hop-docker project is to allow Hop to run in both short and long-lived containers.
 
-Diethard and other community members (Rogier, Uwe) worked together and contributed their efforts to Project Hop.
+Diethard and other community members (Rogier, Uwe, Hans) worked together and contributed their efforts to Project Hop.
 
 Check this project out:
 
