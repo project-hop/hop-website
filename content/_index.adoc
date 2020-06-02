@@ -35,7 +35,7 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
     <tr>
     <td>ICS (iCal, Outlook):</td>
     <td>
-    <a href="calendar/hhh-2020604.ics"><img src="img/calendar/ical.png" style="height:25px; width: 25px;" alt="iCal"></a>
+    <a href="calendar/hhh-20200604.ics"><img src="img/calendar/ical.png" style="height:25px; width: 25px;" alt="iCal"></a>
     </td>
     </tr>
     </table>
