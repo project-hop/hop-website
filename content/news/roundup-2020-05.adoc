@@ -18,7 +18,7 @@ Here's what happened in May!
 
 ## Apache Beam Support
 
-We now have integrated support for Apache Beam. Beam is an advanced unified programming model that lets you implement batch and streaming data processing jobs that run on any execution engine.
+We now have integrated support for https://beam.apache.org/[Apache Beam]. Beam is an advanced unified programming model that lets you implement batch and streaming data processing jobs that run on any execution engine.
 
 The Beam integration comes with a number of additional transforms:
 
@@ -85,7 +85,7 @@ https://twitter.com/diethardsteiner[Diethard Steiner], a long time Kettle and no
 
 The goal of the hop-docker project is to allow Hop to run in both short and long-lived containers.
 
-Diethard and other community members (Rogier, Uwe, Hans) worked together and contributed their efforts to Project Hop.
+Diethard and other community members (https://twitter.com/hans_va[Hans], https://twitter.com/blijblijblij[Rogier], https://twitter.com/uweeegeee[Uwe]) worked together and contributed their efforts to Project Hop.
 
 Check this project out:
 
