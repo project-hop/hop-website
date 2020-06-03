@@ -92,7 +92,9 @@ Here's what to expect in our Easter egg:
 
 Hop fans! We'll be posting monthly roundups here to show you what we are working on, which new functionality is available and what you can expect in the near future.
 
-**[April 2020](/news/roundup-2020-04/)**
+**[May 2020](/news/roundup-2020-05/)**
+
+[April 2020](/news/roundup-2020-04/)
 
 [March 2020](/news/roundup-2020-03/)
 
