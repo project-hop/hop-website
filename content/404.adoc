@@ -1,9 +1,7 @@
 ---
-title: 404
+title: Hop's error handling caught a faulty request
 description: The Hop Orchestration Platform aims to facilitate all aspects of data and metadata orchestration.
 ---
-
-= Hop's error handling caught a faulty request
 
 == 404 - Page not found
 
