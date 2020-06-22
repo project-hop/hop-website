@@ -1,0 +1,23 @@
+---
+title: 404
+description: The Hop Orchestration Platform aims to facilitate all aspects of data and metadata orchestration.
+---
+
+= Hop's error handling caught a faulty request
+
+== 404 - Page not found
+
+image::/img/404/404.png[404, 35%]
+
+The page you requested has yet to be created.
+
+link:https://www.project-hop.org/[Return to homepage]
+
+
+==  Hop Orchestration Platform
+**Perhaps one of the following pages may be of interest:**
+
+link:https://www.project-hop.org/manual/latest/getting-started.html[Manual] - link:https://www.project-hop.org/download/download/[Download] - link:/community/contributing/[Contributing]
+
+
+The Hop Orchestration Platform aims to facilitate all aspects of data and metadata orchestration.
