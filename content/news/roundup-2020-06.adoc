@@ -73,7 +73,7 @@ This LGPL module created a licensing conflict (as is still the case in Kettle) w
 
 As we've gotten used to turn problems into opportunities, we decided to get rid of the Metastore entirely.
 
-Exit Metastore, enter Hop Metadata, a much more lightweight and flexible serialization component for all Hop metadata objects.
+Exit Metastore, enter Hop Metadata, a much more lightweight and flexible serialization component for all Hop metadata objects. All Hop Metadata objects are now plugins, serialized in JSON.
 
 ## Plugins
 
