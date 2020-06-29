@@ -53,6 +53,28 @@ With the scaling and overall user interface improvements, Hop Web is taking shap
 
 image:/img/Roundup-2020-06/hop-web.png[Hop Web, 65% , align="left" , link="/img/Roundup-2020-06/hop-web.png"]
 
+## Search Perspective
+
+From anywhere in Hop-Gui, hit CTRL-F. This universal shortcut opens the brand new Hop search perspective.
+
+The 'Location' dropdown lets you search objects currently loaded in Hop Gui or in all of Project Hop. The search string (optionally) handles regular expressions and case sensitivity.
+
+From the search results, double clicking an item directly opens the selected object.
+
+As projects grow, search becomes a necessity instead of an option. As such, we're confident the Search perspective will become an indispensable tool in your day-to-day Hop work.
+
+image:/img/Roundup-2020-06/hop-ctrl-f.png[Hop Search, 65% , align="left" , link="/img/Roundup-2020-06/hop-ctrl-f.png"]
+
+## Metastore -> Hop Metadata
+
+While reviewing our licensing in preparation for the Apache incubation process, we found the Metastore to be LGPL-licensed.
+
+This LGPL module created a licensing conflict (as is still the case in Kettle) with the rest of the (APL2.0 licensed) Hop code.
+
+As we've gotten used to turn problems into opportunities, we decided to get rid of the Metastore entirely.
+
+Exit Metastore, enter Hop Metadata, a much more lightweight and flexible serialization component for all Hop metadata objects.
+
 ## Plugins
 
 The most important plugins have now been ported.
