@@ -72,6 +72,18 @@ As projects grow, search becomes a necessity instead of an option. As such, we'r
 
 image:/img/Roundup-2020-06/hop-ctrl-f.png[Hop Search, 65% , align="left" , link="/img/Roundup-2020-06/hop-ctrl-f.png"]
 
+## Hop Preview
+
+The last addition to Hop Gui in this list is a small (in size) but very useful new data preview feature.
+
+The transforms now come with tiny icons at their bottom right corner. When clicked, the icons show a preview of the data at that transform's processing in the pipeline.
+
+image:/img/Roundup-2020-06/hop-preview.png[Hop Preview, 65% , align="left" , link="/img/Roundup-2020-06/hop-preview.png"]
+
+The preview (number of rows, none, first, last, random) can be configured in the local run configuration.
+
+image:/img/Roundup-2020-06/hop-preview-config.png[Hop Preview Config, 65% , align="left" , link="/img/Roundup-2020-06/hop-preview-config.png"]
+
 ## Metastore -> Hop Metadata
 
 While reviewing our licensing in preparation for the Apache incubation process, we found the Metastore to be LGPL-licensed.
