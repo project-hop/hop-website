@@ -16,8 +16,6 @@ Here's what happened in June!
 
 The environments system, introduced earlier this year, was significantly extended.
 
-
-
 * a **project** is a set of workflows and pipelines with their datasets, tests etc.
 * **environments** contain configurations for the environments you want to run a project's workflows and pipelines. Each environment has a **purpose**: Development, Testing, Acceptance, Production, Continuous Integration or Common Build
 
@@ -42,6 +40,15 @@ Hop now comes with a new file and folder dialog that does a lot more than just b
 * keeps full history of your activities
 
 image:/img/Roundup-2020-06/hop-file-dialog.png[Hop File Dialog, 65% , align="left" , link="/img/Roundup-2020-06/hop-file-dialog.png"]
+
+## Hop Git
+
+Hop Gui now comes with git integrated.
+Pull, commit, push, all without having to leave Hop Gui, and without interruption to the flow of your work.
+
+This is a first but functional implementation, based on the SpoonGit plugin originally written by https://twitter.com/HiromuHota[Hiromu Hota]
+
+image:/img/Roundup-2020-06/hop-git.png[Hop Git, 65% , align="left" , link="/img/Roundup-2020-06/hop-git.png"]
 
 ## WebHop
 
