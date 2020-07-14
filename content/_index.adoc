@@ -14,28 +14,20 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 
 
 <img src="calendar/hangouts-meet-icon.png" style="width: 50px; height:50px; float: left;" alt="Hot Hop Hangout">
-<p>We'll have our second Hot Hop Hangout (3H2) on Thursday, June 4th at 20:00 CET.
-<br />The topics we'll discuss are:
+<p>We'll have our third Hot Hop Hangout (3H3) on Thursday, July 23rd at 20:00 CET.
+<br />Some topics we'll discuss:
     <ul>
-      <li>Hop Environments</li>
-      <li>Hop Unit Testing</li>
-      <li>Apache Beam Runtimes</li>
-      <li>Hop Containers</li>
-      <li>Hop Web</li>
-      <li>Hop Import</li>
-      <li>Hop Git?</li>
+<li>What's new in Hop version 0.30</li>
+<li>Apache Hop incubation</li>
+<li>Hop Web update</li>
+<li>Hop Docker updates</li>
+<li>...</li>
     </ul>
     <table>
     <tr>
     <td>Google Calendar:</td>
     <td>
-    <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200604T180000Z%2F20200604T193000Z&text=Hot%20Hop%20Hangout%202%20(3H2)&location=https%3A%2F%2Fmeet.google.com%2Fxzb-kchn-kaq&details=We'll%20have%20our%20second%20Hot%20Hop%20Hangout%20(3H2)%20on%20Thursday%2C%20June%204th%20at%2020%3A00%20CET.%20The%20topics%20we'll%20discuss%20are%3A%0A-%20Hop%20Environments%0A-%20Hop%20Unit%20Testing%0A-%20Apache%20Beam%20Runtimes%0A-%20Hop%20Containers%0A-%20Hop%20Web%0A-%20Hop%20Import%0A-%20Hop%20Git%20(%3F)%0A%0AWe%20hope%20to%20see%20you%20then!" target="_blank"><img src="img/calendar/gcal.png" style="width:25px; height:25px;" alt="Google Calendar"></a>
-    </td>
-    </tr>
-    <tr>
-    <td>ICS (iCal, Outlook):</td>
-    <td>
-    <a href="calendar/hhh-20200604.ics"><img src="img/calendar/ical.png" style="height:25px; width: 25px;" alt="iCal"></a>
+    <a href="https://meet.google.com/gfr-nrgk-shc" target="_blank"><img src="img/calendar/gcal.png" style="width:25px; height:25px;" alt="Google Calendar"></a>
     </td>
     </tr>
     </table>
