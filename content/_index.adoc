@@ -27,9 +27,10 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
     <tr>
     <td>Google Calendar:</td>
     <td>
-    <a href="https://meet.google.com/gfr-nrgk-shc" target="_blank"><img src="img/calendar/gcal.png" style="width:25px; height:25px;" alt="Google Calendar"></a>
+    <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Hot+Hop+Hangout+3+%283H3%29&details=-+What%E2%80%99s+new+in+Hop+version+0.30%0A-+Apache+Hop+incubation%0A-+Hop+Web+update%0A-+Hop+Docker+updates%0A%E2%80%A6&location=https%3A%2F%2Fmeet.google.com%2Fgfr-nrgk-shc&dates=20200723T180000Z%2F20200723T193000Z" target="_blank"><img src="img/calendar/gcal.png" style="width:25px; height:25px;" alt="Google Calendar"></a>
     </td>
     </tr>
+      <tr> <td>ICS (iCal, Outlook):</td> <td> <a href="calendar/hhh-2020723.ics"><img src="img/calendar/ical.png" style="height:25px; width: 25px;" alt="iCal"></a> </td> </tr>
     </table>
 <br />
 </p>
