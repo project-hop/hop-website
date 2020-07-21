@@ -4,7 +4,9 @@ title: "Download"
 
 There is no official release of project hop yet, but you can take a look at the latest build of our software.
 
-Grab the lastest version located https://artifactory.project-hop.org/artifactory/hop-snapshots-local/org/hop/hop-assemblies-client/0.30-SNAPSHOT/[here]
+**Preview release 0.30 https://artifactory.project-hop.org/artifactory/hop-releases-local/org/hop/hop-assemblies-client/0.30/hop-assemblies-client-0.30.zip[here]**
+
+Latest Snapshots (0.40-SNAPSHOT) https://artifactory.project-hop.org/artifactory/hop-snapshots-local/org/hop/hop-assemblies-client/0.40-SNAPSHOT/[here]
 
 These are the latest builds available directly from the master branch.
 

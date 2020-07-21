@@ -47,33 +47,18 @@ description: The Hop Orchestration Platform aims to facilitate all aspects of da
 
 ## Releases
 
-Our second preview release 0.21 is available!
+Our Third preview release 0.30 is available!
 
 What to expect:
 
 * continued cleanup, refactoring
 * continued plugin ports
-* UI improvements (hop context menu)
-* Environments and configuration
-* Unit testing
-* start of documentation
+* UI improvements (New File Browser)
+* Containers
+* Beam support
 
-**[0.21 Preview Release](/news/release-preview-0-21/)**
 
-<!--
-Our first preview release 0.10 is available!
-
-Here's what to expect in our Easter egg:
-
-* code cleanup, refactoring
-* everything is a plugin
-* new UI
-* translator
-* documentation
-
-**[0.10 Preview Release](/news/release-preview-0-10/)**
-
--->
+**[0.30 Preview Release](/news/release-preview-0-30/)**
 
 {{< /div >}}
 {{< /div >}}
