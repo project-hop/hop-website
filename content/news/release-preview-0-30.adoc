@@ -103,7 +103,7 @@ Diethard and other community members (https://twitter.com/hans_va[Hans], https:/
 Check this project out:
 
 * GitHub repository: https://github.com/project-hop/hop-docker
-* Docker Hub: https://hub.docker.com/r/diethardsteiner/project-hop
+* Docker Hub: https://hub.docker.com/r/projecthop/hop
 
 
 ## UI
