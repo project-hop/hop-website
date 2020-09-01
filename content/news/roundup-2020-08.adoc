@@ -80,6 +80,6 @@ image:/img/Roundup-2020-08/beam-summit.jpeg[Beam Summit, 65%, align="left", link
 
 Our main focus for the coming weeks is on bug hunting and documentation!
 
-In the meantime, we're getting really close to start the ASF incubation process. We hope to see Apache Hop as a podling in the https://incubator.apache.org/[ASF Incubator list].
+In the meantime, we're getting really close to start the ASF incubation process, and hope to see Apache Hop as a podling in the https://incubator.apache.org/[ASF Incubator list] really soon.
 
-While building Project Hop up to the point where we are now, and with the valueable feedback we've received from the community, we'll update the http://www.project-hop.org/docs/roadmap/[roadmap] with plans for future releases.
+While building Project Hop up to the point where we are now and with the valueable feedback we've received from the community, we'll update the http://www.project-hop.org/docs/roadmap/[roadmap] with plans for future releases.
