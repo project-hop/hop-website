@@ -70,7 +70,9 @@ What to expect:
 
 Hop fans! We'll be posting monthly roundups here to show you what we are working on, which new functionality is available and what you can expect in the near future.
 
-**[June 2020](/news/roundup-2020-06/)**
+**[July, August 2020](/news/roundup-2020-08/)**
+
+[June 2020](/news/roundup-2020-06/)
 
 [May 2020](/news/roundup-2020-05/)
 
