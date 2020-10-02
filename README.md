@@ -112,3 +112,10 @@ Images and other resources should be added in the `static` folder.
 This repository also contains a Jenkins hook, when you add a new branch or pull request with changed content the website is automatically build and a preview is available. When merged with master the site is redeployed
 
 You can check your pull request and see if the site is correctly rendered by going to the [Hop Jenkins website](https://jenkins.project-hop.org/job/hop-website/)
+
+### The END Thing You Should Now
+```html
+An Amazing Website
+    From scratch, i learn to code to make website .That's really a fun the amazing thing is that how are you creative website will be more impressive.
+    You should try to more creative which come from what you do in a day.We should'nt stop Anytime Anywhere we need a continuous progress/growth to build as a best creator.
+```
