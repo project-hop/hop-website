@@ -17,7 +17,7 @@ Please give detailed information about the problem you encountered and, if possi
 |Help With Code Reviews|Read the link:../contribution-guides/code-review-guide/[Code Review Guide] (Work in progress)
 |Help Prepare a Release|
 A release candidate will be announced using our form/twitter and chat. We will then ask as many people as possible to test this candidate and give feedback before proceeding to an actual release.
-|Contribute Documentation|Read the link:../documentation-contribution-guide/[Documentation Contribution Guide] (Work in progress)
+|Contribute Documentation|Read the link:../contribution-guides/documentation-contribution-guide/[Documentation Contribution Guide] (Work in progress)
 |Translate Hop|Read the link:../contribution-guides/translation-contribution-guide/[Translation Contribution Guide]
 |Support Hop Users|
 - Join us on our https://chat.project-hop.org[Mattermost ,window=_blank] server and answer questions
