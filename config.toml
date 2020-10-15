@@ -67,7 +67,7 @@ enableRobotsTXT = true
     parent = "docs"
     weight = 7
     identifier = "docs-qa"
-    url = "/docs/qa"
+    url = "/docs/qa/"
 
 [[menu.main]]
     name = "Community"
