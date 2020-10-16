@@ -23,7 +23,7 @@ This guide is for all committers and contributors that want to help with reviewi
 
 :sectnums!:
 
-== anchor:review-checklist:[]Review Checklist
+== anchor:review-checklist[]Review Checklist
 
 Every review needs to check the following six aspects. *We encourage to check these aspects in order, to avoid spending time on detailed code quality reviews when formal requirements are not met or there is no consensus in the community to accept the change.*
 
