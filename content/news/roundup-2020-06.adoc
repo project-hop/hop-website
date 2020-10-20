@@ -110,7 +110,7 @@ We consider any error or incorrect information in the documentation to be a bug.
 
 https://twitter.com/usbrandon[Brandon] contributed a first video on how to download, install and run Hop on Windows to our https://www.youtube.com/channel/UCGlcYslwe03Y2zbZ1W6DAGA[YouTube channel]. Thanks a lot, Brandon!
 
-
+<!-- [html-validate-disable-next deprecated] -->
 video::RMIOTmZK-YE[youtube, width=75%, height=400px]
 
 ## Future

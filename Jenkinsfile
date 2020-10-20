@@ -55,6 +55,7 @@ pipeline {
             }
         }
 
+        /*
         stage('Checks') {
             agent {
                 dockerfile {
@@ -72,7 +73,7 @@ pipeline {
                 sh "cd $WORKSPACE/hop-website && yarn --non-interactive --frozen-lockfile checks"
             }
         }
-
+        */
         stage('Preview') {
             when {
                 not {

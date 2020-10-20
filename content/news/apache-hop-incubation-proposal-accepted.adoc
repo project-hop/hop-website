@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Incubation Proposal Submitted"
 date: 2020-09-08T12:01:56+02:00
 draft: false
 :imagesdir: /

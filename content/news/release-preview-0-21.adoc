@@ -82,6 +82,7 @@ image:/img/Roundup-2020-04/roundup-2020-04-0003.png[Interface 2 , 50% , align="l
 
 To see the Environments in action you can watch following short video:
 
+<!-- [html-validate-disable-next deprecated] -->
 video::Z-00mluzwuA[youtube, width=50%, height=400px]
 
 With the environment configuration comes a new tool **hop-config**, that brings the entire Hop configuration management much more up to date.
@@ -94,6 +95,7 @@ We added this testing framework because we believe your data pipelines should be
 
 Following video shows unit testing in action:
 
+<!-- [html-validate-disable-next deprecated] -->
 video::rH5eLMB06xM[youtube, width=50%, height=400px]
 
 
